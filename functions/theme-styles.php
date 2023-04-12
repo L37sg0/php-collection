@@ -15,6 +15,7 @@ if (!function_exists('l37sg0_theme_styles')) {
             array(),
             $versionString
         );
+
         wp_register_style(
             'l37sg0-theme-bootstrap',
             get_template_directory_uri() . '/assets/css/bootstrap.min.css',
@@ -22,8 +23,16 @@ if (!function_exists('l37sg0_theme_styles')) {
             $versionString
         );
 
+        wp_register_style(
+            'l37sg0-theme-fontawesome',
+            get_template_directory_uri() . '/assets/css/fontawesome.all.min.css',
+            array(),
+            $versionString
+        );
+
         wp_enqueue_style('l37sg0-theme-style');
         wp_enqueue_style('l37sg0-theme-bootstrap');
+        wp_enqueue_style('l37sg0-theme-fontawesome');
     }
 }
 add_action('wp_enqueue_scripts', 'l37sg0_theme_styles');

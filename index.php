@@ -18,7 +18,11 @@
         ?>
     </main><!-- #main -->
 </div><!-- #primary -->
-    <?php get_footer(); ?>
+<div class="content-area bg-dark">
+    <main id="main" class="site-main" role="main">
+        <?php get_footer(); ?>
+    </main>
+</div>
 </body>
 </html>
 
