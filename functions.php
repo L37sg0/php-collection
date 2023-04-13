@@ -5,6 +5,7 @@ const L37SG0_THEME_FUNCTIONS = [
     'functions/theme-javascript.php',
     'functions/theme-support.php',
     'functions/theme-menus.php',
+    'functions/theme-options/functions.php',
 ];
 
 foreach (L37SG0_THEME_FUNCTIONS as $file) {

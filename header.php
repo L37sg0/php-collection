@@ -37,7 +37,10 @@
                         <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#techstack">TechStack</a>
+                        <a class="nav-link" href="#tech-stack">TechStack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#api-experience">API Experience</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
@@ -56,9 +59,7 @@
     <!-- Navbar -->
 
     <!-- Background image -->
-    <div id="intro-example" class="text-center bg-image"
-         style="
-        ">
+    <div id="intro-example" class="text-center bg-image">
         <div class="mask h-100" style="background-color: rgba(0, 0, 0, 0.7);">
             <div class="d-flex justify-content-center align-items-center h-100">
                 <div class="text-white">

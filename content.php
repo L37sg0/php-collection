@@ -1,3 +1,8 @@
+<style>
+    #api-experience {
+        background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700340844.jpg");
+    }
+</style>
 <div id="about" class="py-4 bg-light text-dark">
     <div class="container py-4 text-center bg-light text-dark">
         <h1>About</h1>
@@ -99,7 +104,7 @@
     </div>
 </div>
 
-<div id="techstack" class="py-4 text-dark bg-light">
+<div id="tech-stack" class="py-4 text-dark bg-light">
     <div class="container py-4 text-center py-4 text-dark bg-light">
         <h1>TechStack</h1>
     </div>
@@ -166,6 +171,54 @@
             <div class="col">
                 <div class="text-center py-2 px-2 border border-5 border-dark" style="color: darkorange">
                     <h3>Magento</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="api-experience" class="py-4 text-dark bg-image">
+    <div class="container py-4 text-center py-4">
+        <h1>API Experience</h1>
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="container py-4 text-center text-dark">
+
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3">
+            <div class="col">
+                <div class="text-center py-2 px-2 bg-light border border-5 border-dark" style="color: black;">
+                    <h3>amazon</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center py-2 px-2 bg-light border border-5 border-dark" style="color: red;">
+                    <h3 style="-webkit-text-stroke: 1px grey">e<span style="color: blue">b</span><span style="color: yellow">a</span><span style="color: lime">y</span></h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center py-2 px-2 bg-light border border-5 border-dark" style="color: orangered;">
+                    <h3>Cdiscount</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center py-2 px-2 bg-light border border-5 border-dark" style="color: lightgreen;">
+                    <h3><span class="text-dark">mor</span><span style="color: deepskyblue">e</span>commerce</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center py-2 px-2 bg-light border border-5 border-dark" style="color: dodgerblue;">
+                    <h3>OnBuy</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center py-2 px-2 bg-light border border-5 border-dark text-light">
+                    <h3 style="-webkit-text-stroke: 2px dodgerblue;">fruugo</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center py-2 px-2 bg-light border border-5 border-dark" style="color: darkviolet;">
+                    <h3>wayfair</h3>
                 </div>
             </div>
         </div>
