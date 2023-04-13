@@ -1,6 +1,6 @@
 <style>
     #api-experience {
-        background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700340844.jpg");
+        background-image: url("<?php echo esc_url(get_theme_mod('l37sg0_theme_api_section_image')) ?? 'https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700340844.jpg'; ?>");
     }
 </style>
 <div id="about" class="py-4 bg-light text-dark">
@@ -14,7 +14,7 @@
         <div class="row featurette">
             <div class="col-md-5 order-md-1">
                 <img id="about-avatar"
-                     src="https://cartoonavatar.com/wp-content/uploads/2022/01/Business-Avatar.png"
+                     src="<?php echo esc_url(get_theme_mod('l37sg0_theme_about_section_avatar')) ?? 'https://cartoonavatar.com/wp-content/uploads/2022/01/Business-Avatar.png'; ?>"
                      alt="about-avatar"/>
                 <style>
                     #about-avatar {
@@ -30,12 +30,7 @@
                 </style>
             </div>
             <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading fw-normal lh-1">About Oh yeah, it’s that good. <span
-                        class="text-muted">See for yourself.</span>
-                </h2>
-                <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of
-                    how
-                    this layout would work with some actual real-world content in place.</p>
+                <p class="lead"><?php echo get_theme_mod('l37sg0_theme_about_section_text'); ?></p>
             </div>
         </div>
     </div>

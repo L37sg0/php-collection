@@ -5,14 +5,14 @@
         #intro-example {
             height: 400px;
             background-position: center;
-            background-image: url("https://c4.wallpaperflare.com/wallpaper/467/740/1008/laptop-desk-wallpaper-preview.jpg");
+            background-image: url("<?php echo esc_url(get_theme_mod('l37sg0_theme_header_image_mobile')); ?>");
         }
 
         /* Height for devices larger than 992px */
         @media (min-width: 992px) {
             #intro-example {
                 height: 1000px;
-                background-image: url('https://cdn.shopify.com/s/files/1/2553/8626/articles/laptop-on-wooden-desk-plant_c14249a9-3218-4296-8b6e-2a25834b19a2_1920x.jpg?v=1663616370');
+                background-image: url("<?php echo esc_url(get_theme_mod('l37sg0_theme_header_image_desktop')); ?>");
             }
         }
     </style>
