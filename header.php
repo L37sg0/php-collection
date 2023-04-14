@@ -1,18 +1,33 @@
 <header>
     <!-- Intro settings -->
+    <?php $headerDesktop = get_template_directory_uri() . '/assets/images/header-desktop-image.png';?>
+    <?php $headerMobile = get_template_directory_uri() . '/assets/images/header-mobile-image.png';?>
+    <?php if (!empty($image = get_theme_mod('l37sg0_theme_header_image_desktop'))) {
+        $headerDesktop = $image;
+    }?>
+    <?php if (!empty($image = get_theme_mod('l37sg0_theme_header_image_mobile'))) {
+        $headerMobile = $image;
+    }?>
     <style>
-        /* Default height for small devices */
+        /* Header Mobile Image */
         #intro-example {
             height: 400px;
             background-position: center;
-            background-image: url("<?php echo esc_url(get_theme_mod('l37sg0_theme_header_image_mobile')); ?>");
+            background-image: url("<?php echo esc_url($headerMobile); ?>");
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
         }
 
-        /* Height for devices larger than 992px */
+        /* Header Desktop Image */
         @media (min-width: 992px) {
             #intro-example {
                 height: 1000px;
-                background-image: url("<?php echo esc_url(get_theme_mod('l37sg0_theme_header_image_desktop')); ?>");
+                background-image: url("<?php echo esc_url($headerDesktop); ?>");
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+
             }
         }
     </style>
