@@ -19,6 +19,7 @@
 </style>
 
 <?php
+require_once 'sections/section-header-banner.php';
 require_once 'sections/section-about.php';
 require_once 'sections/section-services.php';
 require_once 'sections/section-tech-stack.php';
