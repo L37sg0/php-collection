@@ -2,7 +2,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Carousel</a>
+            <a class="navbar-brand" href="<?php echo home_url(); ?>">L37sg0</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -10,25 +10,25 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="<?php echo home_url(); ?>/#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="<?php echo home_url(); ?>/#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="<?php echo home_url(); ?>/#tech-stack">TechStack</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#tech-stack">TechStack</a>
+                        <a class="nav-link" href="<?php echo home_url(); ?>/#api-experience">API Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#api-experience">API Experience</a>
+                        <a class="nav-link" href="<?php echo home_url(); ?>/#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="<?php echo home_url(); ?>/#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="<?php echo home_url(); ?>/blog">Blog</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
