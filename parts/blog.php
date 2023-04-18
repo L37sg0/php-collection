@@ -18,7 +18,7 @@
 
     <div class="my-3 p-3 bg-body rounded shadow-sm">
         <h6 class="border-bottom pb-2 mb-0">Posts</h6>
-        <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
+        <?php $paged = (get_query_var('page')) ? get_query_var('page') : 1; ?>
         <?php $args = [
             'post_type' => 'post',
             'category__in' => [$currentCategory->term_id],

@@ -11,8 +11,8 @@ const L37SG0_THEME_FUNCTIONS = [
     'functions/theme-custom-post-types/functions.php',
     'functions/theme-offcanvas-navbar-style.php',
     'functions/theme-offcanvas-navbar-javascript.php',
-//    'functions/theme-url-rewrite.php',
-    'functions/theme-permalink-structure.php'
+    'functions/theme-url-rewrite.php',
+//    'functions/theme-permalink-structure.php'
 ];
 
 foreach (L37SG0_THEME_FUNCTIONS as $file) {

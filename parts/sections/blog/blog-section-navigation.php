@@ -8,7 +8,7 @@
         <?php if (!empty($categories)): ?>
             <?php foreach ($categories as $category): ?>
                 <?php ($currentCategory->name === $category->name) ? $active = 'active' : $active = ''; ?>
-                <a class="nav-link <?php echo $active; ?>" href="<?php echo get_category_link($category->cat_ID); ?>">
+                <a class="nav-link <?php echo $active; ?>" href="<?php echo get_category_link($category->term_id); ?>">
                     <?php echo ucfirst(strtolower($category->name)); ?>
                     <span class="badge text-bg-light rounded-pill align-text-bottom">
                         <?php echo $category->count; ?>
