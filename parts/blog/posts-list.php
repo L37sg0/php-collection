@@ -60,21 +60,7 @@
                     </p>
                 </div>
             <?php endwhile; ?>
-            <!-- Pagination Links -->
-            <?php $pagination = paginate_links([
-                'total' => $query->max_num_pages,
-                'current' => $paged,
-                'type' => 'array',
-                'prev_text' => __('<< Previous'),
-                'next_text' => __('Next >>')
-            ]); ?>
-            <?php if ($pagination): ?>
-                <div class="pagination">
-                    <?php foreach ($pagination as $link): ?>
-                        <span class="page-numbers"><?php echo $link ?></span>
-                    <?php endforeach; ?>
-                </div>
-            <?php endif; ?>
+            <?php require_once 'blog-section-pagination.php'; ?>
             <?php wp_reset_postdata(); ?>
         <?php else: ?>
             <!-- Example posts list -->
