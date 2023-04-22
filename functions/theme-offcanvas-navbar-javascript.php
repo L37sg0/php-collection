@@ -18,7 +18,9 @@ if (!function_exists('l37sg0_theme_offcanvas_navbar_javascript')) {
             true
         );
 
-        wp_enqueue_script('l37sg0-theme-offcanvas-navbar-js');
+        if (strpos($_SERVER['REQUEST_URI'], '/blog') === 0) {
+            wp_enqueue_script('l37sg0-theme-offcanvas-navbar-js');
+        }
     }
 }
 add_action('wp_enqueue_scripts', 'l37sg0_theme_offcanvas_navbar_javascript');

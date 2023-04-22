@@ -16,7 +16,9 @@ if (!function_exists('l37sg0_theme_offcanvas_navbar_styles')) {
             $versionString
         );
 
-        wp_enqueue_style('l37sg0-theme-offcanvas-navbar-style');
+        if (strpos($_SERVER['REQUEST_URI'], '/blog') === 0) {
+            wp_enqueue_style('l37sg0-theme-offcanvas-navbar-style');
+        }
     }
 }
 add_action('wp_enqueue_scripts', 'l37sg0_theme_offcanvas_navbar_styles');

@@ -25,5 +25,5 @@ require_once 'section-services.php';
 require_once 'section-tech-stack.php';
 require_once 'section-api-experience.php';
 require_once 'section-projects.php';
-require_once 'section-contact.php';
+l37sg0_theme_get_contact_form();
 ?>
