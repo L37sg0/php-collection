@@ -42,28 +42,35 @@
             },
 
             error: function (response) {
-                console.log(response);
-                $('.js-form-submission').removeClass('js-show-feedback');
-                $('.js-form-error').addClass('js-show-feedback');
-                form.find('input, button, textarea').removeAttr('disabled');
+                $('.form-error-name').text('');
+                $('.form-error-email').text('');
+                $('.form-error-message').text('');
+                $('.form-control-msg').removeClass('text-success').addClass('text-danger').text('Unauthorised');
+                form.find('input, button, textarea').removeAttr('disabled').val('');
             },
 
             success: function (response) {
-                console.log(response);
-                if (response === 0) {
+                if (response.success === true) {
+                    $('.form-error-name').text('');
+                    $('.form-error-email').text('');
+                    $('.form-error-message').text('');
+
+                    $('.form-control-msg').removeClass('text-danger').addClass('text-success').text(response.message);
 
                     setTimeout(function () {
-                        $('.js-form-submission').removeClass('js-show-feedback');
-                        $('.js-form-error').addClass('js-show-feedback');
-                        form.find('input, button, textarea').removeAttr('disabled');
+                        form.find('input, button, textarea').removeAttr('disabled').val('');
+                        $('.form-control-msg').text('')
                     }, 1500);
 
                 } else {
+                    $('.form-error-name').text('').text(response.errors.name);
+                    $('.form-error-email').text('').text(response.errors.email);
+                    $('.form-error-message').text('').text(response.errors.message);
+
+                    $('.form-control-msg').removeClass('text-success').addClass('text-danger').text(response.message);
 
                     setTimeout(function () {
-                        $('.js-form-submission').removeClass('js-show-feedback');
-                        $('.js-form-success').addClass('js-show-feedback');
-                        form.find('input, button, textarea').removeAttr('disabled').val('');
+                        form.find('input, button, textarea').removeAttr('disabled');
                     }, 1500);
                 }
             }
