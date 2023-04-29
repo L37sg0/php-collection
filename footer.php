@@ -42,7 +42,12 @@
         </div>
 
         <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <p>2021-<?php echo date('Y'); ?> <a class="text-light" href="https://l37sg0.com">l37sg0.com</a></p>
+            <a class="text-light" href="https://l37sg0.com">
+                <div class="text-center py-2 px-2 bg-dark text-light">
+                    <h3 class="l37sg0-badge text-light">l37sg0.com</h3>
+                    <p>2021-2023</p>
+                </div>
+            </a>
             <div class="container p-4">
                 <!-- Section: Social media -->
                 <section class="mb-4">
