@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Modules\Base\Finance\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Price extends Model implements PriceStaticData
+{
+
+}
