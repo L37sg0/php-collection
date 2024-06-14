@@ -1,15 +1,15 @@
 ## Example configuration:
-# upstream fastcgi_backend {
+ upstream fastcgi_backend {
 #    # use tcp connection
 #    # server  127.0.0.1:9000;
 #    # or socket
-#    server   unix:/var/run/php/php7.4-fpm.sock;
-# }
-# server {
-#    listen 80;
-#    server_name mage.dev;
-#    set $MAGE_ROOT /var/www/magento2;
-#    set $MAGE_DEBUG_SHOW_ARGS 0;
+    server   php81:9000;
+ }
+ server {
+    listen 80;
+    server_name gamento.localhost;
+    set $MAGE_ROOT /var/www/gamento;
+    set $MAGE_DEBUG_SHOW_ARGS 0;
 #    include /vagrant/magento2/nginx.conf.sample;
 # }
 #
@@ -244,4 +244,5 @@ gzip_vary on;
 # Banned locations (only reached if the earlier PHP entry point regexes don't match)
 location ~* (\.php$|\.phtml$|\.htaccess$|\.htpasswd$|\.git) {
     deny all;
+}
 }

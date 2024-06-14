@@ -69,3 +69,5 @@ atlassian*
 /generated/*
 !/generated/.htaccess
 .DS_Store
+/nginx.conf
+/app/etc/config.php.example
