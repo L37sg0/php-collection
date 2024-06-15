@@ -180,8 +180,8 @@ class ConfigSetCommandTest extends \PHPUnit\Framework\TestCase
         $this->outputMock->expects($this->exactly(2))
             ->method('writeln')
             ->withConsecutive(
-                ['<info>Value was saved in app/etc/env.php.example and locked.</info>'],
-                ['<info>Value was saved in app/etc/env.php.example and locked.</info>']
+                ['<info>Value was saved in app/etc/env.php and locked.</info>'],
+                ['<info>Value was saved in app/etc/env.php and locked.</info>']
             );
 
         /** @var ConfigSetCommand $command */
@@ -256,8 +256,8 @@ class ConfigSetCommandTest extends \PHPUnit\Framework\TestCase
         );
         $this->assertNull($this->arrayManager->get($configPath, $this->loadConfig()));
 
-        $this->runCommand($arguments, $optionsLock, '<info>Value was saved in app/etc/env.php.example and locked.</info>');
-        $this->runCommand($arguments, $optionsLock, '<info>Value was saved in app/etc/env.php.example and locked.</info>');
+        $this->runCommand($arguments, $optionsLock, '<info>Value was saved in app/etc/env.php and locked.</info>');
+        $this->runCommand($arguments, $optionsLock, '<info>Value was saved in app/etc/env.php and locked.</info>');
 
         $this->assertSame($value, $this->arrayManager->get($configPath, $this->loadConfig()));
     }

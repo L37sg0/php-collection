@@ -94,7 +94,7 @@ class SensitiveConfigSetCommandTest extends \PHPUnit\Framework\TestCase
         $outputMock = $this->getMockForAbstractClass(OutputInterface::class);
         $outputMock
             ->method('writeln')
-            ->withConsecutive(['<info>Configuration value saved in app/etc/env.php.example</info>']);
+            ->withConsecutive(['<info>Configuration value saved in app/etc/env.php</info>']);
 
         $inputMocks = [];
 
@@ -186,7 +186,7 @@ class SensitiveConfigSetCommandTest extends \PHPUnit\Framework\TestCase
             ->method('writeln')
             ->withConsecutive(
                 ['<info>Please set configuration values or skip them by pressing [Enter]:</info>'],
-                ['<info>Configuration values saved in app/etc/env.php.example</info>']
+                ['<info>Configuration values saved in app/etc/env.php</info>']
             );
         $command = $this->createInteractiveCommand('sensitiveValue');
         $command->run($inputMock, $outputMock);
