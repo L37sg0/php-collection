@@ -1,13 +1,8 @@
 @extends('front.base')
 
 @section('page_body')
-{{--{% include 'front/components/page-navigation.html.twig' %}--}}
-<style>
-    .img-result {
-        width: 100%;
-        padding-bottom: 10%;
-    }
-</style>
+@include('front.components.page-navigation')
+
 <div class="container">
     <div class="row" data-masonry='{"percentPosition": true }'>
         <div class="col-lg-3">
@@ -304,7 +299,7 @@
         </div>
     </div>
 </div>
-{{--{% include 'front/components/overlay-top.html.twig' %}--}}
+@include('front.components.overlay-top')
 <div class="container">
     <div class="row" data-masonry='{"percentPosition": true }'>
         <div class="col-1">

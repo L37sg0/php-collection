@@ -1,19 +1,3 @@
-<style>
-    .logo-img {
-        padding-right: 5%;
-    }
-</style>
-<style>
-    .header-transparent {
-        background-color: transparent;
-        transition: background-color 0.3s ease;
-    }
-
-    .header-solid {
-        background-color: rgba(255, 255, 255, 1);
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better separation */
-    }
-</style>
 <header id="main-header" class="p-3 fixed-top header-transparent">
     <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -40,16 +24,17 @@
 </header>
 @include('front.components.login-modal')
 @include('front.components.register-modal')
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    $(document).ready(function () {
-        $(window).scroll(function () {
-            if ($(window).scrollTop() > 50) {
-                $('#main-header').removeClass('header-transparent').addClass('header-solid');
-            } else {
-                $('#main-header').removeClass('header-solid').addClass('header-transparent');
-            }
+@section('page_js')
+    @parent
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 50) {
+                    $('#main-header').removeClass('header-transparent').addClass('header-solid');
+                } else {
+                    $('#main-header').removeClass('header-solid').addClass('header-transparent');
+                }
+            });
         });
-    });
-</script>
+    </script>
+@endsection

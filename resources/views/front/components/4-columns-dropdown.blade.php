@@ -1,32 +1,3 @@
-<style>
-    .dropdown-menu {
-        width: 1000%; /* Adjust the width of the dropdown menu */
-        max-width: 800px; /* Optional: Limit the maximum width */
-        padding: 1rem; /* Add padding for spacing */
-        font-size: 14px;
-        font-weight: 400;
-    }
-
-    .dropdown-menu .row {
-        margin: 0;
-    }
-
-    .dropdown-menu .col-menu {
-        padding: 10px;
-        border-right: 1px solid black; /* Add right border */
-    }
-
-    .dropdown-menu .col-menu:last-child {
-        border-right: none; /* Remove border for the last column */
-    }
-    .dropdown-menu .row-social {
-        border-top: 1px solid black; /* Add right border */
-
-    }
-    .dropdown-item {
-        white-space: nowrap;
-    }
-</style>
 <div class="dropdown">
     <button class="btn btn-outline-light dropdown-toggle text-dark" type="button" style="border: none;"
             data-bs-toggle="dropdown" aria-expanded="false">{{ 'Explore' }}

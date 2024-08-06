@@ -1,9 +1,9 @@
 <form class="search-form">
-    <div class="input-group input-group-sm mb-3 pt-3">
+    <div class="input-group input-group-lg mb-3">
         <button class="search-button" type="submit"
                 aria-label="Search for all images on Pixabay">
             <i class="fa-solid fa-magnifying-glass"></i></button>
-        <input type="text" class="form-control" aria-label="Search for images">
+        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
         <button class="btn btn-light dropdown-toggle text-dark" type="button"
                 data-bs-toggle="dropdown" aria-expanded="false">{{ 'All Images' }}
         </button>

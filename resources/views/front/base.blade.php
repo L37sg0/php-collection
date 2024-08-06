@@ -9,8 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <!-- App css -->
-    @include('front.css')
+
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -24,23 +23,17 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
 
-{{--    {% block stylesheets %}--}}
-{{--    {{ encore_entry_link_tags('app') }}--}}
-{{--    {% endblock %}--}}
+    <!-- App css -->
+    @include('front.css')
     @yield('page_css')
 
-{{--    {% block javascripts %}--}}
-{{--    {{ encore_entry_script_tags('app') }}--}}
-{{--    {% block importmap %}{{ importmap('app') }}{% endblock %}--}}
-{{--    {% endblock %}--}}
 </head>
 <body>
 @include('front.components.header')
-{{--{% include 'front/components/hero.html.twig' %}--}}
-{{--{% block body %}{% endblock %}--}}
-{{--{% include 'front/components/footer.html.twig' %}--}}
+@include('front.components.hero')
 @yield('page_body')
-@yield('page_js')
+@include('front.components.footer')
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
@@ -50,5 +43,6 @@
 <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
         integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
         async></script>
+@yield('page_js')
 </body>
 </html>

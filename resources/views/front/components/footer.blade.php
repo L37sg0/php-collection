@@ -10,7 +10,7 @@
                           fill="currentColor" fill-rule="nonzero"></path>
                 </svg>
             </a>
-            <p class="text-body-secondary">{{ 'Over 4.9 million+ high quality stock images, videos and music shared by our talented community.'|trans }}</p>
+            <p class="text-body-secondary">{{ 'Over 4.9 million+ high quality stock images, videos and music shared by our talented community.' }}</p>
             <div class="row icon-row">
                 <div class="col">
                     <i class="fa-brands fa-instagram"></i>
@@ -32,48 +32,48 @@
         </div>
 
         <div class="col mb-3">
-            <h5>{{ 'Discover'|trans }}</h5>
+            <h5>{{ 'Discover' }}</h5>
             <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Editor\'s Choice'|trans }}</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Curated Collections'|trans }}</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Pixabay Radio'|trans }}
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Editor\'s Choice' }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Curated Collections' }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Pixabay Radio' }}
                         <span class="badge bg-pixabay">NEW</span></a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Popular Images'|trans }}</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Popular Videos'|trans }}</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Popular Music'|trans }}</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Popular Searches'|trans }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Popular Images' }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Popular Videos' }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Popular Music' }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Popular Searches' }}</a></li>
             </ul>
         </div>
 
         <div class="col mb-3">
-            <h5>{{ 'Comunity'|trans }}</h5>
+            <h5>{{ 'Comunity' }}</h5>
             <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Blog'|trans }}</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Forum'|trans }}</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Creators'|trans }}</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Cameras'|trans }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Blog' }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Forum' }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Creators' }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Cameras' }}</a></li>
             </ul>
         </div>
 
         <div class="col mb-3">
-            <h5>{{ 'About'|trans }}</h5>
+            <h5>{{ 'About' }}</h5>
             <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'About Us'|trans }}</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'FAQ'|trans }}</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'License Summary'|trans }}</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Terms of Service'|trans }}</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Privacy Policy'|trans }}</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Cookies Policy'|trans }}</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Digital Services Act'|trans }}</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Report Content'|trans }}</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'API'|trans }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'About Us' }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'FAQ' }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'License Summary' }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Terms of Service' }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Privacy Policy' }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Cookies Policy' }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Digital Services Act' }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'Report Content' }}</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">{{ 'API' }}</a></li>
             </ul>
         </div>
     </footer>
     <div class="d-flex justify-content-center pt-5 pb-5 text-secondary">
         {{ 'This site is protected by reCAPTCHA and the Google ' }}
-        <a class="text-dark" target="_blank" href="https://policies.google.com/privacy">{{ ' Privacy Policy'|trans }}</a>
-        {{ ' and '|trans }}
+        <a class="text-dark" target="_blank" href="https://policies.google.com/privacy">{{ ' Privacy Policy' }}</a>
+        {{ ' and ' }}
         <a class="text-dark" target="_blank" href="https://policies.google.com/terms">{{ 'Terms of Service' }}</a>
-        {{ ' apply.'|trans }}</div>
+        {{ ' apply.' }}</div>
 </div>
