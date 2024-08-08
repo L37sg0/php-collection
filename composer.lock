@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "925dc8b42c14adf448bd00e872135d4e",
+    "content-hash": "33ac0dfc57b28590a5d2d0de0f8a5528",
     "packages": [
         {
             "name": "brick/math",
@@ -1049,6 +1049,41 @@
                 }
             ],
             "time": "2023-12-03T19:50:20+00:00"
+        },
+        {
+            "name": "l37sg0/badmin",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "./local-src/l37sg0/badmin",
+                "reference": "3b13b50d568cc7d4a66f7090c5d201f8ddcdf2e2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "L37sg0\\Badmin\\ModuleServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "L37sg0\\Badmin\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Petar Ivanov",
+                    "email": "petar.ivanov@l37sg0.com"
+                }
+            ],
+            "description": "Bootstrap Admin",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "l37sg0/rbac",

@@ -6,6 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "l37sg0/badmin": "^1.0",
         "l37sg0/rbac": "^1.0",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9"
