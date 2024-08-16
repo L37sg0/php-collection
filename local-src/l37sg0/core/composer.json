@@ -1,0 +1,25 @@
+{
+  "name": "l37sg0/core",
+  "description": "Core utilities module",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "L37sg0\\Core\\": "src/"
+    }
+  },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "L37sg0\\Core\\ModuleServiceProvider"
+            ]
+        }
+    },
+  "authors": [
+    {
+      "name": "Petar Ivanov",
+      "email": "petar.ivanov@l37sg0.com"
+    }
+  ],
+  "require": {},
+  "version": "1.0.0"
+}
