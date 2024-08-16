@@ -20,6 +20,8 @@
       "email": "petar.ivanov@l37sg0.com"
     }
   ],
-  "require": {},
+  "require": {
+      "l37sg0/core": "1.*"
+  },
   "version": "1.0.0"
 }
