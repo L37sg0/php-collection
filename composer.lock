@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "33ac0dfc57b28590a5d2d0de0f8a5528",
+    "content-hash": "1c3a0319abd2475e22f21d9c28e2e0f7",
     "packages": [
         {
             "name": "brick/math",
@@ -1056,7 +1056,10 @@
             "dist": {
                 "type": "path",
                 "url": "./local-src/l37sg0/badmin",
-                "reference": "3b13b50d568cc7d4a66f7090c5d201f8ddcdf2e2"
+                "reference": "bd71b54bfdc087611e238409c9a675c68ee4eab1"
+            },
+            "require": {
+                "l37sg0/core": "1.*"
             },
             "type": "library",
             "extra": {
@@ -1086,12 +1089,50 @@
             }
         },
         {
+            "name": "l37sg0/core",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "./local-src/l37sg0/core",
+                "reference": "60c6e76126f94403075f88a2acde13bbb11becf6"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "L37sg0\\Core\\ModuleServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "L37sg0\\Core\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Petar Ivanov",
+                    "email": "petar.ivanov@l37sg0.com"
+                }
+            ],
+            "description": "Core utilities module",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "l37sg0/rbac",
             "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "./local-src/l37sg0/rbac",
-                "reference": "a7ccf13ad6332ee897bef2c16b494cac32a04862"
+                "reference": "99a3434ec2a02cecdafe487603c499a1227edb2a"
+            },
+            "require": {
+                "l37sg0/core": "1.*"
             },
             "type": "library",
             "extra": {
