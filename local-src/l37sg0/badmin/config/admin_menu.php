@@ -2,7 +2,8 @@
 
 return [
     'Dashboard' => [
-        'icon' => '<svg class="bi"><use xlink:href="#house-fill"/></svg >',
-        'route' => 'admin.dashboard'
+        'icon' => '<i class="fa fa-house"></i>',
+        'route' => 'admin.dashboard',
+        'order' => 1,
     ]
 ];

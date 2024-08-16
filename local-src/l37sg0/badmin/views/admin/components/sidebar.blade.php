@@ -8,7 +8,15 @@
         </div>
         <div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
             <ul class="nav flex-column">
-                @foreach(config('admin_menu') as $label => $item)
+                @php
+                    $adminMenu = config('admin_menu');
+
+                    // Sort the menu items by 'order'
+                    uasort($adminMenu, function ($a, $b) {
+                        return $a['order'] <=> $b['order'];
+                    });
+                @endphp
+                @foreach($adminMenu as $label => $item)
                     <li class="nav-item">
                         <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="{{ route($item['route']) }}">
                             @php echo $item['icon']; @endphp

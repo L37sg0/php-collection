@@ -3,17 +3,11 @@
 namespace L37sg0\Badmin;
 
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\ServiceProvider;
 use L37sg0\Badmin\Controller\DashboardController;
+use L37sg0\Core\Providers\CoreServiceProvider;
 
-class ModuleServiceProvider extends ServiceProvider
+class ModuleServiceProvider extends CoreServiceProvider
 {
-    public function boot()
-    {
-        $this->publishes([
-            __DIR__ . '/../config/admin_menu.php' => config_path('admin_menu.php')
-        ], 'config');
-    }
 
     public function register()
     {
@@ -22,6 +16,6 @@ class ModuleServiceProvider extends ServiceProvider
             Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
         });
         $this->loadViewsFrom(__DIR__ . '/../views', 'admin');
-        $this->mergeConfigFrom(__DIR__ . '/../config/admin_menu.php', config_path('admin_menu.php'));
+        $this->mergeConfigRecursively('admin_menu', __DIR__ . '/../config/admin_menu.php');
     }
 }

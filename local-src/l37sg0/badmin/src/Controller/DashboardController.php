@@ -2,9 +2,7 @@
 
 namespace L37sg0\Badmin\Controller;
 
-use App\Http\Controllers\Controller;
-
-class DashboardController extends Controller
+class DashboardController
 {
     public function index()
     {
