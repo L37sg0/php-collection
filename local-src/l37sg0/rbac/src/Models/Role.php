@@ -7,9 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 /**
+ * @property int id
  * @property string title
  * @property string slug
  * @property string description
+ * @property string created_at
+ * @property string updated_at
  */
 class Role extends Model
 {

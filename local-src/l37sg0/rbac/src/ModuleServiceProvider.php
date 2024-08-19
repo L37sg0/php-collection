@@ -20,9 +20,14 @@ class ModuleServiceProvider extends CoreServiceProvider
         ]);
 
         Route::group(['as' => 'admin.', 'prefix' => 'admin'], function () {
-            Route::get('/roles', [RolesController::class, 'index'])->name('roles');
+            Route::name('roles.')->prefix('roles')->group(function () {
+                Route::get('/', [RolesController::class, 'index'])->name('list');
+                Route::get('/edit', [RolesController::class, 'edit'])->name('edit');
+                Route::get('/delete', [RolesController::class, 'destroy'])->name('delete');
+            });
         });
 
+        $this->loadViewsFrom(__DIR__ . '/../views', 'rbac');
         // Merge the config with the application's existing config
         $this->mergeConfigRecursively('admin_menu', __DIR__ . '/../config/admin_menu.php');
     }
