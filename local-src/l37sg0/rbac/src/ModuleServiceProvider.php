@@ -3,7 +3,6 @@
 namespace L37sg0\Rbac;
 
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\ServiceProvider;
 use L37sg0\Core\Providers\CoreServiceProvider;
 use L37sg0\Rbac\Commands\Install;
 use L37sg0\Rbac\Commands\UnInstall;
@@ -23,6 +22,8 @@ class ModuleServiceProvider extends CoreServiceProvider
             Route::name('roles.')->prefix('roles')->group(function () {
                 Route::get('/', [RolesController::class, 'index'])->name('list');
                 Route::get('/edit', [RolesController::class, 'edit'])->name('edit');
+                Route::post('/store', [RolesController::class, 'store'])->name('store');
+                Route::post('/update', [RolesController::class, 'update'])->name('update');
                 Route::get('/delete', [RolesController::class, 'destroy'])->name('delete');
             });
         });
