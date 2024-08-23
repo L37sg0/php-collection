@@ -44,12 +44,3 @@
     </div>
 
 @endsection
-
-@section('page_js')
-    @parent
-    <script>
-        $(document).ready(function (){
-
-        });
-    </script>
-@endsection
