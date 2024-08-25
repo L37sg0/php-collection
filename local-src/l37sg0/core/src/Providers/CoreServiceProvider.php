@@ -2,6 +2,7 @@
 
 namespace L37sg0\Core\Providers;
 
+use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 
 class CoreServiceProvider extends ServiceProvider
@@ -43,5 +44,13 @@ class CoreServiceProvider extends ServiceProvider
         }
 
         return $merged;
+    }
+
+    protected function loadRoutesWithMiddleware(string $middleware, string $path)
+    {
+        Route::middleware($middleware)
+            ->group(function () use($path) {
+                $this->loadRoutesFrom($path);
+            });
     }
 }
