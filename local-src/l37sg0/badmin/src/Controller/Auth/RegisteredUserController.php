@@ -18,7 +18,7 @@ class RegisteredUserController
      */
     public function create(): View
     {
-        return view('auth.register');
+        return view('admin::auth.register');
     }
 
     /**
@@ -44,6 +44,6 @@ class RegisteredUserController
 
         Auth::login($user);
 
-        return redirect(route('dashboard', absolute: false));
+        return redirect(route('admin.dashboard', absolute: false));
     }
 }
