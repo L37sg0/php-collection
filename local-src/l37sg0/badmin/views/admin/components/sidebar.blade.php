@@ -24,6 +24,15 @@
                         </a>
                     </li>
                 @endforeach
+                <li class="nav-item">
+                    <form id="logout-form" method="POST" action="{{ route('logout') }}">
+                        @csrf
+                        <a href="#" class="nav-link d-flex align-items-center gap-2 active" aria-current="page"
+                           onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                            {{ trans('Log Out') }}
+                        </a>
+                    </form>
+                </li>
             </ul>
         </div>
     </div>

@@ -15,7 +15,7 @@ class AuthenticatedSessionController
      */
     public function create(): View
     {
-        return view('auth.login');
+        return view('admin::auth.login');
     }
 
     /**
@@ -27,7 +27,7 @@ class AuthenticatedSessionController
 
         $request->session()->regenerate();
 
-        return redirect()->intended(route('dashboard', absolute: false));
+        return redirect()->intended(route('admin.dashboard'));
     }
 
     /**
