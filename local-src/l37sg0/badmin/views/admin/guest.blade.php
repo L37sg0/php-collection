@@ -30,3 +30,16 @@
         }
     </style>
 @endsection
+
+@section('page_js')
+<script>
+    if (window.history && window.history.pushState) {
+        window.history.pushState(null, null, window.location.href);
+        window.onpopstate = function (event) {
+            window.history.pushState(null, null, window.location.href);
+            window.location.href = '/login'; // Redirect to login
+        };
+    }
+
+</script>
+@endsection
