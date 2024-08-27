@@ -28,30 +28,13 @@
 
     <!-- App css -->
     @include('admin::admin.assets.css.css')
-    @include('admin::admin.components.custom-icons')
     @yield('page_css')
 
 </head>
 <body>
 
-
-@include('admin::admin.components.color-scheme-button')
-
-
-
-@include('admin::admin.components.header')
-
-<div class="container-fluid">
-    <div class="row">
-
-        @include('admin::admin.components.sidebar')
-        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-            @yield('page_header')
-            @yield('page_body')
-        </main>
-
-    </div>
-</div>
+@yield('page_header')
+@yield('page_body')
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -61,9 +44,7 @@
 @include('admin::admin.assets.js.bootstrap-bundle-min-js')
 
 @include('admin::admin.assets.js.js')
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.2/dist/chart.umd.js"
-        integrity="sha384-eI7PSr3L1XLISH8JdDII5YN/njoSsxfbrkCTnJrzXt+ENP5MOVBxD+l6sEG4zoLp"
-        crossorigin="anonymous"></script>
+
 
 @yield('page_js')
 </body>

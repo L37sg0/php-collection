@@ -1,5 +1,7 @@
-@extends('admin::admin.base')
-@section('page_header')
+@extends('admin::admin.admin')
+
+@section('content_header')
+    @parent
     <div
         class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">{{ trans('Profile') }}</h1>
@@ -11,7 +13,8 @@
     </div>
 
 @endsection
-@section('page_body')
+@section('content_body')
+    @parent
     <div class="container my-4">
         <div class="card m-2">
             <div class="card-header">
