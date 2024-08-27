@@ -1,8 +1,9 @@
 @php use L37sg0\Rbac\Models\Role; @endphp
-@extends('admin::admin.base')
+@extends('admin::admin.admin')
 
 
-@section('page_header')
+@section('content_header')
+    @parent
     <div
         class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">{{trans('Roles')}}</h1>
@@ -15,7 +16,8 @@
 
 @endsection
 
-@section('page_body')
+@section('content_body')
+    @parent
     <div class="table-responsive small">
         <table class="table table-striped table-sm">
             <thead>

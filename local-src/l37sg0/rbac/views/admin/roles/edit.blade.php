@@ -1,9 +1,10 @@
 @php use L37sg0\Rbac\Models\Permission;use L37sg0\Rbac\Models\Role;use L37sg0\Rbac\Repositories\RoleRepository; @endphp
 @php /** @var Role $role */ @endphp
-@extends('admin::admin.base')
+@extends('admin::admin.admin')
 
 
-@section('page_header')
+@section('content_header')
+    @parent
     <div
         class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">{{!empty($role) ? trans('Edit Role ' . $role->title) : trans('New Role')}}</h1>
@@ -20,7 +21,8 @@
 
 @endsection
 
-@section('page_body')
+@section('content_body')
+    @parent
     <div class="container">
         <form id="edit_role_form" method="POST" action="{{ !empty($role) ? route('admin.roles.update') : route('admin.roles.store') }}">
             @csrf

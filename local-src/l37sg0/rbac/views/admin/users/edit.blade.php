@@ -1,9 +1,10 @@
-@php use App\Models\User;use L37sg0\Rbac\Models\Role;use L37sg0\Rbac\Repositories\RoleRepository;use L37sg0\Rbac\Repositories\UserRepository; @endphp
+@php use App\Models\User;use L37sg0\Rbac\Models\Role;;use L37sg0\Rbac\Repositories\UserRepository; @endphp
 @php /** @var User $user */ @endphp
-@extends('admin::admin.base')
+@extends('admin::admin.admin')
 
 
-@section('page_header')
+@section('content_header')
+    @parent
     <div
         class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">{{!empty($user) ? trans('Edit User ' . $user->name) : trans('New User')}}</h1>
@@ -21,7 +22,8 @@
 
 @endsection
 
-@section('page_body')
+@section('content_body')
+    @parent
     <div class="container">
         <form id="edit_user_form" method="POST"
               action="{{ !empty($user) ? route('admin.users.update') : route('admin.users.store') }}">
