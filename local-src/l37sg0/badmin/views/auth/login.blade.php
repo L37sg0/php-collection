@@ -34,6 +34,7 @@
                     </div>
                     <button class="btn btn-primary w-100 py-2" type="submit">{{trans('Log in')}}</button>
                 </form>
+                    <a class="btn btn-link" href="{{route('register')}}">{{ trans('Don\'t have an account? Register') }}</a>
             </main>
 
         </div>

@@ -5,6 +5,7 @@ namespace L37sg0\Badmin\Controller\Auth;
 use App\Models\User;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use L37sg0\Badmin\Notifications\VerifyEmail;
 
 class EmailVerificationNotificationController
 {
@@ -18,7 +19,7 @@ class EmailVerificationNotificationController
         }
         /** @var User $user */
         $user = $request->user();
-        $user->sendEmailVerificationNotification();
+        $user->notify(new VerifyEmail());
 
         return back()->with('status', 'verification-link-sent');
     }
