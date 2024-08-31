@@ -28,7 +28,7 @@ class RolesController
         if (isset($data['permissions'])) {
             $role->permissions()->sync(array_keys($data['permissions']));
         }
-        return response()->redirectToRoute('admin.roles.list');
+        return response()->redirectToRoute('admin.roles.list')->with('success', trans('Role saved successfully!'));
     }
 
     public function update(Request $request)
@@ -40,12 +40,12 @@ class RolesController
         $newPermissions = isset($data['permissions']) ? array_keys($data['permissions']) : [];
         $role->permissions()->sync($newPermissions);
 
-        return response()->redirectToRoute('admin.roles.list');
+        return response()->redirectToRoute('admin.roles.list')->with('success', trans('Role updated successfully!'));
     }
 
     public function destroy()
     {
         Role::find(request()->query('id'))->delete();
-        return response()->redirectToRoute('admin.roles.list');
+        return response()->redirectToRoute('admin.roles.list')->with('info', trans('Role deleted successfully!'));
     }
 }

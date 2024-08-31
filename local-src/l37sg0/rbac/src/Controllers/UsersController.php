@@ -28,7 +28,7 @@ class UsersController
         if (isset($data['roles'])) {
             $user->roles()->sync(array_keys($data['roles']));
         }
-        return response()->redirectToRoute('admin.users.list');
+        return response()->redirectToRoute('admin.users.list')->with('success', trans('User saved successfully!'));
     }
 
     public function update(Request $request)
@@ -40,12 +40,12 @@ class UsersController
         $newRoles = isset($data['roles']) ? array_keys($data['roles']) : [];
         $user->roles()->sync($newRoles);
 
-        return response()->redirectToRoute('admin.users.list');
+        return response()->redirectToRoute('admin.users.list')->with('success', trans('User updated successfully!'));
     }
 
     public function destroy()
     {
         User::find(request()->query('id'))->delete();
-        return response()->redirectToRoute('admin.users.list');
+        return response()->redirectToRoute('admin.users.list')->with('info', trans('User deleted successfully!'));
     }
 }
