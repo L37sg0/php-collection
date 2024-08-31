@@ -34,7 +34,7 @@ class ProfileController
 
         $request->user()->save();
 
-        return Redirect::route('admin.profile.edit')->with('status', 'profile-updated');
+        return Redirect::route('admin.profile.edit')->with('success', 'Successfully updated your profile.');
     }
 
     /**

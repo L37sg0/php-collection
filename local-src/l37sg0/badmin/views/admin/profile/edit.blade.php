@@ -48,17 +48,27 @@
                     @method('PUT')
                     <div class="form-floating mb-3">
                         <input type="password" class="form-control" id="current_password"
-                               name="current_password">
+                               name="current_password" value="{{ old('current_password', '') }}">
                         <label for="current_password">{{ trans('Current Password') }}</label>
+                        @error('current_password')
+                        <div class="text-danger">{{$message}}</div>
+                        @enderror
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="password" class="form-control" id="password" name="password">
+                        <input type="password" class="form-control" id="password"
+                               name="password" value="{{ old('password', '') }}">
                         <label for="password">{{ trans('New Password') }}</label>
+                        @error('password')
+                        <div class="text-danger">{{$message}}</div>
+                        @enderror
                     </div>
                     <div class="form-floating mb-3">
                         <input type="password" class="form-control" id="password_confirmation"
-                               name="password_confirmation">
+                               name="password_confirmation" value="{{ old('password_confirmation', '') }}">
                         <label for="password_confirmation">{{ trans('Confirm Password') }}</label>
+                        @error('password_confirmation')
+                        <div class="text-danger">{{$message}}</div>
+                        @enderror
                     </div>
                     <button type="submit" class="btn btn-outline-success">{{ trans('Save') }}</button>
                 </form>
