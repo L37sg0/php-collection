@@ -17,39 +17,105 @@
 
             <ul class="nav flex-column">
                 @foreach($adminMenu as $label => $item)
-                    <li class="nav-item {{ isset($item['children']) ? 'has-treeview' : '' }}">
-                        <a
-                            href="{{ $item['route'] ? route($item['route']) : '#' }}"
-                            class="nav-link d-flex align-items-center gap-2 pt-1 pb-1 text-success {{ isset($item['children']) ? 'menu-toggle' : '' }}"
-                            style="align-items: center;"
-                        >
-                            {!! $item['icon'] !!}
-                            <p class="mb-0" style="line-height: 1.5;">
-                                {{ $label }}
-                                @if(isset($item['children']))
-                                    <i class="right fas fa-angle-left"></i>
-                                @endif
-                            </p>
-                        </a>
+                    @if(isset($item['can']))
+                        @can($item['can'])
+                            <li class="nav-item {{ isset($item['children']) ? 'has-treeview' : '' }}">
+                                <a
+                                    href="{{ $item['route'] ? route($item['route']) : '#' }}"
+                                    class="nav-link d-flex align-items-center gap-2 pt-1 pb-1 text-success {{ isset($item['children']) ? 'menu-toggle' : '' }}"
+                                    style="align-items: center;"
+                                >
+                                    {!! $item['icon'] !!}
+                                    <p class="mb-0" style="line-height: 1.5;">
+                                        {{ $label }}
+                                        @if(isset($item['children']))
+                                            <i class="right fas fa-angle-left"></i>
+                                        @endif
+                                    </p>
+                                </a>
 
-                        @if(isset($item['children']))
-                            <ul class="nav nav-treeview" style="display: none; padding-left: 20px;">
-                                @php
-                                    uasort($item['children'], fn($a, $b) => $a['order'] <=> $b['order']);
-                                @endphp
-                                @foreach($item['children'] as $subLabel => $subItem)
-                                    <li class="nav-item">
-                                        <a href="{{ route($subItem['route']) }}"
-                                           class="nav-link d-flex align-items-center gap-2 pt-1 pb-1 text-success"
-                                           style="align-items: center;">
-                                            {!! $subItem['icon'] !!}
-                                            <p class="mb-0" style="line-height: 1.5;">{{ $subLabel }}</p>
-                                        </a>
-                                    </li>
-                                @endforeach
-                            </ul>
-                        @endif
-                    </li>
+                                @if(isset($item['children']))
+                                    <ul class="nav nav-treeview" style="display: none; padding-left: 20px;">
+                                        @php
+                                            uasort($item['children'], fn($a, $b) => $a['order'] <=> $b['order']);
+                                        @endphp
+                                        @foreach($item['children'] as $subLabel => $subItem)
+                                            @if(isset($subItem['can']))
+                                                @can($subItem['can'])
+                                                    <li class="nav-item">
+                                                        <a href="{{ route($subItem['route']) }}"
+                                                           class="nav-link d-flex align-items-center gap-2 pt-1 pb-1 text-success"
+                                                           style="align-items: center;">
+                                                            {!! $subItem['icon'] !!}
+                                                            <p class="mb-0"
+                                                               style="line-height: 1.5;">{{ $subLabel }}</p>
+                                                        </a>
+                                                    </li>
+                                                @endcan
+                                            @else
+                                                <li class="nav-item">
+                                                    <a href="{{ route($subItem['route']) }}"
+                                                       class="nav-link d-flex align-items-center gap-2 pt-1 pb-1 text-success"
+                                                       style="align-items: center;">
+                                                        {!! $subItem['icon'] !!}
+                                                        <p class="mb-0" style="line-height: 1.5;">{{ $subLabel }}</p>
+                                                    </a>
+                                                </li>
+                                            @endif
+                                        @endforeach
+                                    </ul>
+                                @endif
+                            </li>
+                        @endcan
+                    @else
+                        <li class="nav-item {{ isset($item['children']) ? 'has-treeview' : '' }}">
+                            <a
+                                href="{{ $item['route'] ? route($item['route']) : '#' }}"
+                                class="nav-link d-flex align-items-center gap-2 pt-1 pb-1 text-success {{ isset($item['children']) ? 'menu-toggle' : '' }}"
+                                style="align-items: center;"
+                            >
+                                {!! $item['icon'] !!}
+                                <p class="mb-0" style="line-height: 1.5;">
+                                    {{ $label }}
+                                    @if(isset($item['children']))
+                                        <i class="right fas fa-angle-left"></i>
+                                    @endif
+                                </p>
+                            </a>
+
+                            @if(isset($item['children']))
+                                <ul class="nav nav-treeview" style="display: none; padding-left: 20px;">
+                                    @php
+                                        uasort($item['children'], fn($a, $b) => $a['order'] <=> $b['order']);
+                                    @endphp
+                                    @foreach($item['children'] as $subLabel => $subItem)
+                                        @if(isset($subItem['can']))
+                                            @can($subItem['can'])
+                                                <li class="nav-item">
+                                                    <a href="{{ route($subItem['route']) }}"
+                                                       class="nav-link d-flex align-items-center gap-2 pt-1 pb-1 text-success"
+                                                       style="align-items: center;">
+                                                        {!! $subItem['icon'] !!}
+                                                        <p class="mb-0"
+                                                           style="line-height: 1.5;">{{ $subLabel }}</p>
+                                                    </a>
+                                                </li>
+                                            @endcan
+                                        @else
+                                            <li class="nav-item">
+                                                <a href="{{ route($subItem['route']) }}"
+                                                   class="nav-link d-flex align-items-center gap-2 pt-1 pb-1 text-success"
+                                                   style="align-items: center;">
+                                                    {!! $subItem['icon'] !!}
+                                                    <p class="mb-0" style="line-height: 1.5;">{{ $subLabel }}</p>
+                                                </a>
+                                            </li>
+                                        @endif
+                                    @endforeach
+                                </ul>
+                            @endif
+                        </li>
+                    @endif
                 @endforeach
                     <li class="nav-item">
                         <form id="logout-form" method="POST" action="{{ route('logout') }}" style="display: none;">
