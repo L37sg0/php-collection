@@ -3,6 +3,7 @@
 namespace L37sg0\Rbac\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 /**
  * @property int id
@@ -19,4 +20,9 @@ class Permission extends Model
         'slug',
         'description',
     ];
+
+    public function roles(): BelongsToMany
+    {
+        return $this->belongsToMany(Role::class, 'role_permissions');
+    }
 }

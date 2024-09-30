@@ -5,6 +5,7 @@ return [
         'icon' => '<i class="fa fa-id-badge"></i>',
         'route' => null,
         'order' => 10,
+        'can' => 'manage_accounts',
         'children' => [
             'Roles' => [
                 'icon' => '<i class="fa fa-id-card"></i>',
