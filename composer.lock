@@ -1129,7 +1129,7 @@
             "dist": {
                 "type": "path",
                 "url": "./local-src/l37sg0/rbac",
-                "reference": "d6fe8a4e1f6ff86ea9e6f89e87c459dd83c11e68"
+                "reference": "99a3434ec2a02cecdafe487603c499a1227edb2a"
             },
             "require": {
                 "l37sg0/core": "1.*"
@@ -1146,11 +1146,6 @@
                 "psr-4": {
                     "L37sg0\\Rbac\\": "src/"
                 }
-            },
-            "scripts": {
-                "post-package-install": [
-                    "@php artisan module:l37sg0_rbac:install"
-                ]
             },
             "license": [
                 "MIT"
