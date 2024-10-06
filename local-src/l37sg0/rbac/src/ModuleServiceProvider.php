@@ -3,36 +3,28 @@
 namespace L37sg0\Rbac;
 
 use App\Models\User;
-use Illuminate\Auth\Access\Response;
-use Illuminate\Support\Facades\Gate;
 use L37sg0\Core\Providers\CoreServiceProvider;
 use L37sg0\Rbac\Commands\Install;
+use L37sg0\Rbac\Commands\SyncPermissions;
 use L37sg0\Rbac\Commands\UnInstall;
-use L37sg0\Rbac\Models\Permission;
 use L37sg0\Rbac\Models\Role;
-use L37sg0\Rbac\Repositories\UserRepository;
+use L37sg0\Rbac\Services\RegisterRbacGate;
 
 class ModuleServiceProvider extends CoreServiceProvider
 {
     public function boot()
     {
+        $this->publishes([
+            __DIR__ . '/../config/permissions.php' => config_path('permissions.php')
+        ], 'config');
+
         User::resolveRelationUsing('roles', function (User $user) {
             return $user->belongsToMany(Role::class, 'user_roles');
         });
+
         $this->loadRoutesWithMiddleware('web', __DIR__ . '/../routes/admin.php');
 
-        if (!$this->app->runningInConsole()) { //prevents throwing error when run php artisan migration to create permissions table
-            foreach (Permission::all() as $permission) {
-                Gate::define($permission->slug, function ($user) use ($permission) {
-                    foreach ($permission->roles as $role) {
-                        if (UserRepository::hasRole($user, $role)) {
-                            return Response::allow();
-                        }
-                    }
-                    return Response::deny(trans('You don\'t have permission to access this page.'));
-                });
-            }
-        }
+        RegisterRbacGate::execute($this->app);
     }
 
 
@@ -41,6 +33,7 @@ class ModuleServiceProvider extends CoreServiceProvider
         $this->commands([
             Install::class,
             Uninstall::class,
+            SyncPermissions::class
         ]);
 
         $this->loadViewsFrom(__DIR__ . '/../views', 'rbac');
