@@ -4,10 +4,14 @@ namespace App\Models;
 
 use App\Services\FacebookService;
 use App\Services\GoogleNewsService;
+use Illuminate\Container\Attributes\Tag;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
+ * @property int    id
+ * @property string created_at
+ * @property string updated_at
  * @property string title
  * @property string slug
  * @property string content
@@ -41,5 +45,11 @@ class News extends Model
             (new GoogleNewsService())->pingGoogle();
         });
     }
+
+    public function tags()
+    {
+        return $this->belongsToMany(Tag::class, 'news_tags');
+    }
+
 
 }
