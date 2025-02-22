@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\Category;
+use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Route;
 use App\Models\News;
 use Illuminate\Http\Request;
@@ -28,4 +29,9 @@ Route::get('/news/{slug}', function ($slug) {
 });
 Route::post('/news', function (Request $request) {
     return News::create($request->all());
+});
+Route::get('/rss', function () {
+    $news = News::latest()->take(20)->get();
+    $rss = view('rss', compact('news'));
+    return Response::make($rss, 200)->header('Content-Type', 'application/xml');
 });
