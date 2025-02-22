@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Services\FacebookService;
+use App\Services\GoogleNewsService;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
@@ -35,6 +36,9 @@ class News extends Model
             $message = "📢 Нова статия: {$news->title}";
             $link = url('/news/' . $news->slug);
             $facebook->postToPage($message, $link);
+        });
+        static::created(function ($news) {
+            (new GoogleNewsService())->pingGoogle();
         });
     }
 
