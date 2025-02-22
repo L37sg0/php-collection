@@ -41,6 +41,11 @@
                 </li>
             @endforeach
         </ul>
+        <form action="{{ route('news.search') }}" method="GET">
+            <input type="text" name="q" placeholder="Търси в сайта..." class="form-control" required>
+            <button type="submit" class="btn btn-primary">🔍</button>
+        </form>
+
     </div>
 </nav>
 

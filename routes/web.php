@@ -27,7 +27,7 @@ Route::get('/news', function () {
 Route::get('/news/{slug}', function ($slug) {
     $newsItem = News::where('slug', $slug)->firstOrFail();
     return view('news.show', compact('newsItem'));
-});
+})->name('news.show');
 Route::post('/news', function (Request $request) {
     return News::create($request->all());
 });
@@ -37,4 +37,5 @@ Route::get('/rss', function () {
     return Response::make($rss, 200)->header('Content-Type', 'application/xml');
 });
 Route::get('/tag/{slug}', [NewsController::class, 'byTag'])->name('news.tag');
+Route::get('/search', [NewsController::class, 'search'])->name('news.search');
 
