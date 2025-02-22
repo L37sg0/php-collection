@@ -1,3 +1,4 @@
+@php use App\Models\Category; @endphp
 <!DOCTYPE html>
 <html lang="bg">
 <head>
@@ -32,7 +33,7 @@
         <a class="navbar-brand" href="/">Новини</a>
 
         <ul class="navbar-nav ms-auto">
-            @foreach ($categories as $category)
+            @foreach (Category::all() as $category)
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('/?category=' . $category->slug) }}">
                         {{ $category->title }}

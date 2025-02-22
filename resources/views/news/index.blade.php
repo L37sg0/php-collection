@@ -11,6 +11,12 @@
                 <small class="text-muted">Категория: {{ $item->category->title ?? 'Без категория' }}</small>
                 <p>{{ Str::limit($item->content, 150) }}</p>
             </a>
+            <p>Тагове:
+                @foreach($item->tags as $tag)
+                    <a href="{{ route('news.tag', $tag->slug) }}" class="badge bg-primary">{{ $tag->name }}</a>
+                @endforeach
+            </p>
+
         @endforeach
     </div>
 

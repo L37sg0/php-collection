@@ -7,6 +7,11 @@
 
 @section('content')
     <h1>{{ $newsItem->title }}</h1>
+    <p>Тагове:
+        @foreach($newsItem->tags as $tag)
+            <a href="{{ route('news.tag', $tag->slug) }}" class="badge bg-primary">{{ $tag->name }}</a>
+        @endforeach
+    </p>
     <p>{!! nl2br(e($newsItem->content)) !!}</p>
     <a href="/" class="btn btn-primary">⬅ Назад</a>
 @endsection
