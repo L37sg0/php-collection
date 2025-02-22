@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
 use App\Models\News;
 use App\Models\Tag;
 use Illuminate\Http\Request;
@@ -52,6 +53,15 @@ class NewsController extends Controller
         $news = News::whereRaw("MATCH(title, content) AGAINST(?)", [$query])->paginate(10);
 
         return view('news.search', compact('news', 'query'));
+    }
+
+    public function byTag($slug)
+    {
+        $tag = Tag::where('slug', $slug)->firstOrFail();
+        $news = $tag->news()->paginate(10);
+        $categories = Category::all();
+
+        return view('news.index', compact('news', 'tag', 'categories'));
     }
 
     /**

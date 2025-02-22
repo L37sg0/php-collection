@@ -4,7 +4,6 @@ namespace App\Models;
 
 use App\Services\FacebookService;
 use App\Services\GoogleNewsService;
-use Illuminate\Container\Attributes\Tag;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 

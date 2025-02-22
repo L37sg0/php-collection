@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\NewsController;
 use App\Models\Category;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Route;
@@ -35,3 +36,5 @@ Route::get('/rss', function () {
     $rss = view('rss', compact('news'));
     return Response::make($rss, 200)->header('Content-Type', 'application/xml');
 });
+Route::get('/tag/{slug}', [NewsController::class, 'byTag'])->name('news.tag');
+
