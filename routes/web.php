@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\CategoryController;
+use App\Http\Controllers\Admin\TagsController;
 use App\Http\Controllers\NewsController;
 use App\Models\Category;
 use Illuminate\Support\Facades\Response;
@@ -69,5 +70,12 @@ Route::middleware(['auth', 'verified'])->name('admin.')->prefix('/admin')->group
         Route::post('/store', [CategoryController::class, 'store'])->name('store');
         Route::post('/update', [CategoryController::class, 'update'])->name('update');
         Route::get('/delete', [CategoryController::class, 'destroy'])->name('delete');
+    });
+    Route::name('tags.')->prefix('tags')->group(function () {
+        Route::get('/', [TagsController::class, 'index'])->name('list');
+        Route::get('/edit', [TagsController::class, 'edit'])->name('edit');
+        Route::post('/store', [TagsController::class, 'store'])->name('store');
+        Route::post('/update', [TagsController::class, 'update'])->name('update');
+        Route::get('/delete', [TagsController::class, 'destroy'])->name('delete');
     });
 });
