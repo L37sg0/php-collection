@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Category;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class CategoryController extends Controller
 {
@@ -24,8 +25,8 @@ class CategoryController extends Controller
     {
         $data = $request->all();
         $data = array_merge($data, [
-//            'is_active' => isset($data['is_active']) ? 1 : 0,
-        ]);
+                'slug' => Str::slug($data['title'])
+            ]);
         $category = Category::create($data);
         return response()->redirectToRoute('admin.categories.list')->with('success', trans('Category saved successfully!'));
     }
@@ -34,8 +35,8 @@ class CategoryController extends Controller
     {
         $data = $request->all();
         $data = array_merge($data, [
-//            'is_active' => isset($data['is_active']) ? 1 : 0,
-        ]);
+                'slug' => Str::slug($data['title'])
+            ]);
         $category = Category::find($data['id']);
         $category->update($data);
 
