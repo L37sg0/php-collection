@@ -4,6 +4,7 @@ namespace App\Models;
 
 use DateTimeInterface;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
  * @property int                id
@@ -12,6 +13,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property string             title
  * @property string             slug
  * @property int                parent_id
+ * @property Category           parent
  */
 class Category extends Model
 {
@@ -20,4 +22,9 @@ class Category extends Model
         'slug',
         'parent_id',
     ];
+
+    public function parent(): BelongsTo
+    {
+        return $this->belongsTo(self::class, 'parent_id');
+    }
 }

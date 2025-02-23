@@ -1,4 +1,4 @@
-@php use L37sg0\Catalog\Models\CatalogCategory; @endphp
+@php use App\Models\Category; @endphp
 @extends('admin::admin.admin')
 
 
@@ -32,14 +32,16 @@
             </tr>
             </thead>
             <tbody>
-            @php /** @var CatalogCategory $category */ @endphp
+            @php /** @var Category $category */ @endphp
             @foreach($categories as $category)
                 <tr>
                     <td>{{ $category->id }}</td>
                     <td>{{ (!empty($category->parent)) ? $category->parent->title : '----'}}</td>
                     <td>{{ $category->title }}</td>
                     <td>{{ $category->slug }}</td>
-                    <td><span class="text-{{ $category->is_active ? trans('success') : trans('danger') }}">{{ $category->is_active ? trans('YES') : trans('NO') }}</span></td>
+                    <td><span
+                            class="text-{{ $category->is_active ? trans('success') : trans('danger') }}">{{ $category->is_active ? trans('YES') : trans('NO') }}</span>
+                    </td>
                     <td>
                         <a href="{{ route('admin.categories.edit', ['id' => $category->id]) }}"
                            class="btn btn-sm btn-outline-success" id="edit"><i class="fas fa-pencil"></i></a>
