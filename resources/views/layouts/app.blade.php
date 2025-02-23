@@ -9,6 +9,17 @@
           content="@yield('meta_description', 'Последни новини за AI, Big Data, Web3 и криптовалути.')">
     <meta name="keywords" content="@yield('meta_keywords', 'новини, технологии, AI, Big Data, криптовалути, Web3')">
 
+{{--    TODO not sure should this be here --}}
+{{--    <meta name="description" content="@yield('meta_description', 'Последни новини за AI, BigData, Blockchain и Web3.')">--}}
+{{--    <meta name="keywords" content="@yield('meta_keywords', 'AI, BigData, Blockchain, Web3, криптовалути, технологии')">--}}
+{{--    <meta property="og:title" content="@yield('meta_title', 'Технологични новини')">--}}
+{{--    <meta property="og:description"--}}
+{{--          content="@yield('meta_description', 'Последни новини за AI, BigData, Blockchain и Web3.')">--}}
+{{--    <meta property="og:type" content="article">--}}
+{{--    <meta property="og:url" content="{{ url()->current() }}">--}}
+{{--    <meta property="og:image" content="@yield('meta_image', asset('default-image.jpg'))">--}}
+
+
     <!-- Open Graph (Facebook, LinkedIn) -->
     <meta property="og:title" content="@yield('meta_title', 'Новини от света на технологиите')">
     <meta property="og:description"

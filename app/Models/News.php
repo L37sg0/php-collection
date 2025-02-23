@@ -6,6 +6,7 @@ use App\Services\FacebookService;
 use App\Services\GoogleNewsService;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Support\Collection;
 
 /**
  * @property int    id
@@ -16,6 +17,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property string content
  * @property string image
  * @property int    category_id
+ * @property Collection tags
  */
 class News extends Model
 {
