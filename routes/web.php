@@ -6,6 +6,28 @@ use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Route;
 use App\Models\News;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
+use Spatie\Feed\Feed;
+use Spatie\Feed\FeedItem;
+
+Route::feeds();
+
+Route::get('/feed', function () {
+    return new Feed(
+        items: News::latest()->get()->map(fn($news) => new FeedItem([
+            'id' => url("/news/{$news->slug}"),
+            'title' => $news->title,
+            'summary' => Str::limit(strip_tags($news->content), 200),
+            'updated' => $news->updated_at,
+            'link' => url("/news/{$news->slug}"),
+            'authorName' => 'NewsSite',
+        ])),
+        title: 'Новини от ' . config('app.name'),
+        url: url('/feed'),
+        description: 'Последните новини от света на технологиите',
+    );
+});
+
 
 Route::get('/', function (Request $request) {
     $categories = Category::all();
