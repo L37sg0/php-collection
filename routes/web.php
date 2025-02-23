@@ -78,4 +78,11 @@ Route::middleware(['auth', 'verified'])->name('admin.')->prefix('/admin')->group
         Route::post('/update', [TagsController::class, 'update'])->name('update');
         Route::get('/delete', [TagsController::class, 'destroy'])->name('delete');
     });
+    Route::name('news.')->prefix('news')->group(function () {
+        Route::get('/', [\App\Http\Controllers\Admin\NewsController::class, 'index'])->name('list');
+        Route::get('/edit', [\App\Http\Controllers\Admin\NewsController::class, 'edit'])->name('edit');
+        Route::post('/store', [\App\Http\Controllers\Admin\NewsController::class, 'store'])->name('store');
+        Route::post('/update', [\App\Http\Controllers\Admin\NewsController::class, 'update'])->name('update');
+        Route::get('/delete', [\App\Http\Controllers\Admin\NewsController::class, 'destroy'])->name('delete');
+    });
 });
