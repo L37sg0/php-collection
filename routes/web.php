@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\NewsController;
 use App\Models\Category;
 use Illuminate\Support\Facades\Response;
@@ -61,3 +62,12 @@ Route::get('/rss', function () {
 Route::get('/tag/{slug}', [NewsController::class, 'byTag'])->name('news.tag');
 Route::get('/search', [NewsController::class, 'search'])->name('news.search');
 
+Route::middleware(['auth', 'verified'])->name('admin.')->prefix('/admin')->group(function () {
+    Route::name('categories.')->prefix('categories')->group(function () {
+        Route::get('/', [CategoryController::class, 'index'])->name('list');
+        Route::get('/edit', [CategoryController::class, 'edit'])->name('edit');
+        Route::post('/store', [CategoryController::class, 'store'])->name('store');
+        Route::post('/update', [CategoryController::class, 'update'])->name('update');
+        Route::get('/delete', [CategoryController::class, 'destroy'])->name('delete');
+    });
+});
