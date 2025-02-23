@@ -1,8 +1,8 @@
 <?php
 
 return [
-//    trans('News') => [
-        'News' => [
+//    trans('Articles') => [
+        'Articles' => [
         'icon' => '<i class="fa-solid fa-layer-group"></i>',
         'route' => null,// null,
         'order' => 10,
@@ -20,12 +20,12 @@ return [
                 'route' => 'admin.tags.list',
                 'order' => 11,
             ],
-////            trans('Articles') => [
-//                'Articles' => [
-//                'icon' => '<i class="fa-solid fa-table-list"></i>',
-//                'route' => null,// 'admin.articles.list',
-//                'order' => 11,
-//            ]
+//            trans('News') => [
+                'News' => [
+                'icon' => '<i class="fa-solid fa-table-list"></i>',
+                'route' => 'admin.news.list',
+                'order' => 11,
+            ]
         ]
     ],
 ];
