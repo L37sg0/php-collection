@@ -8,6 +8,9 @@
     "require": {
         "php": "^8.2",
         "facebook/graph-sdk": "^5.1",
+        "l37sg0/badmin": "^1.0",
+        "l37sg0/core": "^1.0",
+        "l37sg0/rbac": "^1.0",
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
         "spatie/laravel-feed": "^4.4",
@@ -29,6 +32,12 @@
             "Database\\Seeders\\": "database/seeders/"
         }
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./local-src/*/*"
+        }
+    ],
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
@@ -40,7 +49,8 @@
             "@php artisan package:discover --ansi"
         ],
         "post-update-cmd": [
-            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force",
+            "@php artisan vendor:publish --tag=config --force"
         ],
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
