@@ -2,16 +2,17 @@
 
 namespace App\Models;
 
+use DateTimeInterface;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 /**
- * @property int    id
- * @property string created_at
- * @property string updated_at
- * @property string name
- * @property string slug
+ * @property int                id
+ * @property DateTimeInterface  created_at
+ * @property DateTimeInterface  updated_at
+ * @property string             name
+ * @property string             slug
  */
 class Tag extends Model
 {

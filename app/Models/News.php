@@ -4,20 +4,21 @@ namespace App\Models;
 
 use App\Services\FacebookService;
 use App\Services\GoogleNewsService;
+use DateTimeInterface;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Collection;
 
 /**
- * @property int    id
- * @property string created_at
- * @property string updated_at
- * @property string title
- * @property string slug
- * @property string content
- * @property string image
- * @property int    category_id
- * @property Collection tags
+ * @property int                id
+ * @property DateTimeInterface  created_at
+ * @property DateTimeInterface  updated_at
+ * @property string             title
+ * @property string             slug
+ * @property string             content
+ * @property string             image
+ * @property int                category_id
+ * @property Collection         tags
  */
 class News extends Model
 {

@@ -3,18 +3,19 @@
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
+use DateTimeInterface;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
 /**
- * @property int id
- * @property string created_at
- * @property string updated_at
- * @property string name
- * @property string email
- * @property string password
- * @property string remember_token
+ * @property int                id
+ * @property DateTimeInterface  created_at
+ * @property DateTimeInterface  updated_at
+ * @property string             name
+ * @property string             email
+ * @property string             password
+ * @property string             remember_token
  */
 class User extends Authenticatable
 {
