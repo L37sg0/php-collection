@@ -25,7 +25,7 @@ class NewsController
         $data = $request->all();
         if (!isset($data['slug']) || empty($data['slug'])) {
             $data = array_merge($data, [
-                'slug' => Str::slug($data['name'])
+                'slug' => Str::slug($data['title'])
             ]);
         }
 
@@ -38,7 +38,7 @@ class NewsController
         $data = $request->all();
         if (!isset($data['slug']) || empty($data['slug'])) {
             $data = array_merge($data, [
-                'slug' => Str::slug($data['name'])
+                'slug' => Str::slug($data['title'])
             ]);
         }
 
