@@ -1,0 +1,5 @@
+.idea
+.env
+rockstar/.env
+rockstar/vendor
+rockstar/storage
