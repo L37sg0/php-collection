@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Permission{% endblock %}
+
+{% block templateActions %}
+    <a type="button"
+       class="btn btn-sm btn-outline-secondary"
+       href="{{ path('app_permission_index') }}">back to list</a>
+{% endblock %}
+
+{% block body %}
+
+    {{ include('permission/_form.html.twig') }}
+
+{% endblock %}

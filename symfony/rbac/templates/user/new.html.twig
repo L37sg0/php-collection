@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New User{% endblock %}
+
+{% block templateActions %}
+    <a type="button"
+       class="btn btn-sm btn-outline-secondary"
+       href="{{ path('app_user_index') }}">back to list</a>
+{% endblock %}
+
+{% block body %}
+
+    {{ include('user/_form.html.twig') }}
+
+{% endblock %}

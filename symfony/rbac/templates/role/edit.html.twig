@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Role{% endblock %}
+
+{% block templateActions %}
+    <a type="button"
+       class="btn btn-sm btn-outline-secondary"
+       href="{{ path('app_role_index') }}">back to list</a>
+{% endblock %}
+
+{% block body %}
+    {{ include('role/_form.html.twig', {'button_label': 'Update'}) }}
+
+    {{ include('role/_delete_form.html.twig') }}
+{% endblock %}
