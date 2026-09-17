@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+    <head>
+        <css src="Magento_Cms::css/slick.css"/>
+        <css src="Magento_Cms::css/slick-theme.css"/>
+    </head>
+
+    <body>
+        <referenceContainer name="columns.top">
+            <referenceBlock name="page.main.title" remove="true"/>
+            <block class="Magento\Framework\View\Element\Template"
+                   name="banner_slider"
+                   template="Magento_Cms::default/banner-slider.phtml"
+                   before="page.messages"
+            />
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template"
+                   name="featured_products"
+                   template="Magento_Cms::default/featured-products.phtml"/>
+            <block class="Magento\Framework\View\Element\Template"
+                   name="youtube_videos"
+                   template="Magento_Cms::default/youtube-videos.phtml"/>
+        </referenceContainer>
+        <referenceContainer name="before.body.end">
+            <block class="Magento\Framework\View\Element\Template"
+                   name="slick.js"
+                   template="Magento_Cms::default/slick-js.phtml"
+                   after="-"
+            />
+        </referenceContainer>
+    </body>
+</page>
