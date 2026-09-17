@@ -1,0 +1,11 @@
+<?php
+
+const L37SG0_CUSTOM_POST_TYPES = [
+    'theme-post-type-project.php',
+    'theme-post-type-service/functions.php',
+    'theme-post-type-about.php'
+];
+
+foreach (L37SG0_CUSTOM_POST_TYPES as $file) {
+    require_once $file;
+}
