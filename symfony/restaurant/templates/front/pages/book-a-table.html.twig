@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<!-- ======= Main Section ======= -->
+<main id="main">
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-header">
+                <h2>Book A Table</h2>
+                <p>Book <span>Your Stay</span> With Us</p>
+            </div>
+
+            <div class="row g-0">
+
+                <div class="col-lg-4 reservation-img" style="background-image: url(assets/img/reservation.jpg);"
+                     data-aos="zoom-out" data-aos-delay="200"></div>
+                {% include 'front/forms/book-a-table-form.html.twig' %}
+
+            </div>
+
+        </div>
+    </section>
+    <!-- End Book A Table Section -->
+</main>
+<!-- End Main Section -->
+{% endblock %}

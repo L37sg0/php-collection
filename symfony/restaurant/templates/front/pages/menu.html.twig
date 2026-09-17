@@ -1,0 +1,70 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<!-- ======= Main Section ======= -->
+<main id="main">
+
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-header">
+                <h2>Our Menu</h2>
+                <p>Check Our <span>Yummy Menu</span></p>
+            </div>
+
+            <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+                {% for key, menu in menus %}
+                    <li class="nav-item">
+                        <a class="nav-link {{ (key==0) ? 'active' : '' }} show" data-bs-toggle="tab" data-bs-target="#menu-{{ menu.slug }}">
+                            <h4>{{ menu.title }}</h4>
+                        </a>
+                    </li><!-- End tab nav item -->
+                {% endfor %}
+
+            </ul>
+
+            <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+
+                {% for key, menu in menus %}
+                <div class="tab-pane {{ (key==0) ? 'active' : '' }} fade show" id="menu-{{ menu.slug }}">
+
+                        <div class="tab-header text-center">
+                            <p>Menu</p>
+                            <h3>{{ menu.title }}</h3>
+                        </div>
+
+
+                        <div class="row gy-5">
+                            {% for item in menu.items %}
+                                {% set imageUrl =  (item.image|default('menu-item-1.png')) %}
+
+                            <div class="col-lg-4 menu-item">
+                            <a href="uploads/images/{{ imageUrl }}" class="glightbox"><img
+                                        src="uploads/images/{{ imageUrl }}" class="menu-img img-fluid" alt=""></a>
+                            <h4>{{ item.title }}</h4>
+                            <p class="ingredients">
+                                {{ item.ingredients }}
+                            </p>
+                            <p class="price">
+                                {{ item.price }}
+                            </p>
+                        </div><!-- Menu Item -->
+
+                            {% endfor %}
+
+                        </div>
+
+                </div><!-- End Starter Menu Content -->
+
+                {% endfor %}
+            </div>
+
+        </div>
+    </section>
+    <!-- End Menu Section -->
+</main>
+<!-- End Main Section -->
+{% endblock %}
