@@ -1,0 +1,94 @@
+<style>
+    .dropdown-menu {
+        width: 1000%; /* Adjust the width of the dropdown menu */
+        max-width: 800px; /* Optional: Limit the maximum width */
+        padding: 1rem; /* Add padding for spacing */
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .dropdown-menu .row {
+        margin: 0;
+    }
+
+    .dropdown-menu .col-menu {
+        padding: 10px;
+        border-right: 1px solid black; /* Add right border */
+    }
+
+    .dropdown-menu .col-menu:last-child {
+        border-right: none; /* Remove border for the last column */
+    }
+    .dropdown-menu .row-social {
+        border-top: 1px solid black; /* Add right border */
+
+    }
+    .dropdown-item {
+        white-space: nowrap;
+    }
+</style>
+<div class="dropdown">
+    <button class="btn btn-outline-light dropdown-toggle text-dark" type="button" style="border: none;"
+            data-bs-toggle="dropdown" aria-expanded="false">{{ 'Explore'|trans }}
+    </button>
+    <div class="dropdown-menu bg-dark text-light">
+        <div class="row">
+            <div class="col col-menu mb-3">
+                <h5>{{ 'Media'|trans }}</h5>
+                <a href="#" class="dropdown-item text-light"><i class="fa-solid fa-camera-retro"></i> {{ 'Photos'|trans }}</a>
+                <a href="#" class="dropdown-item text-light"><i class="fa-solid fa-paintbrush"></i> {{ 'Illustrations'|trans }}</a>
+                <a href="#" class="dropdown-item text-light"><i class="fa-solid fa-bezier-curve"></i> {{ 'Vectors'|trans }}</a>
+                <a href="#" class="dropdown-item text-light"><i class="fa-solid fa-video"></i> {{ 'Videos'|trans }}</a>
+                <a href="#" class="dropdown-item text-light"><i class="fa-solid fa-music"></i> {{ 'Music'|trans }}</a>
+                <a href="#" class="dropdown-item text-light"><i class="fa-solid fa-wave-square"></i> {{ 'Sound Effects'|trans }}</a>
+                <a href="#" class="dropdown-item text-light"><i class="fa-solid fa-fire-flame-curved"></i> {{ 'GIFs'|trans }}</a>
+            </div>
+
+            <div class="col col-menu mb-3">
+                <h5>{{ 'Discover'|trans }}</h5>
+                    <a href="#" class="dropdown-item text-light">{{ 'Editor\'s Choice'|trans }}</a>
+                    <a href="#" class="dropdown-item text-light">{{ 'Curated Collections'|trans }}</a>
+                    <a href="#" class="dropdown-item text-light">{{ 'Pixabay Radio'|trans }}<span class="badge bg-pixabay">NEW</span></a>
+                    <a href="#" class="dropdown-item text-light">{{ 'Popular Images'|trans }}</a>
+                    <a href="#" class="dropdown-item text-light">{{ 'Popular Videos'|trans }}</a>
+                    <a href="#" class="dropdown-item text-light">{{ 'Popular Music'|trans }}</a>
+                    <a href="#" class="dropdown-item text-light">{{ 'Popular Searches'|trans }}</a>
+            </div>
+
+            <div class="col col-menu mb-3">
+                <h5>{{ 'Comunity'|trans }}</h5>
+                    <a href="#" class="dropdown-item text-light">{{ 'Blog'|trans }}</a>
+                    <a href="#" class="dropdown-item text-light">{{ 'Forum'|trans }}</a>
+                    <a href="#" class="dropdown-item text-light">{{ 'Creators'|trans }}</a>
+                    <a href="#" class="dropdown-item text-light">{{ 'Cameras'|trans }}</a>
+            </div>
+
+            <div class="col col-menu mb-3">
+                <h5>{{ 'About'|trans }}</h5>
+                    <a href="#" class="dropdown-item text-light">{{ 'About Us'|trans }}</a>
+                    <a href="#" class="dropdown-item text-light">{{ 'FAQ'|trans }}</a>
+                    <a href="#" class="dropdown-item text-light">{{ 'License Summary'|trans }}</a>
+                    <a href="#" class="dropdown-item text-light">{{ 'Terms of Service'|trans }}</a>
+                    <a href="#" class="dropdown-item text-light">{{ 'Privacy Policy'|trans }}</a>
+                    <a href="#" class="dropdown-item text-light">{{ 'Cookies Policy'|trans }}</a>
+                    <a href="#" class="dropdown-item text-light">{{ 'Digital Services Act'|trans }}</a>
+                    <a href="#" class="dropdown-item text-light">{{ 'Report Content'|trans }}</a>
+                    <a href="#" class="dropdown-item text-light">{{ 'API'|trans }}</a>
+            </div>
+        </div>
+        <div class="row row-social">
+            <div class="col">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="col">
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+            <div class="col">
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="col">
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+    </div>
+</div>

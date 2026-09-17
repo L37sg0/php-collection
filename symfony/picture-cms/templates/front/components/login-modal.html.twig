@@ -1,0 +1,36 @@
+<!-- Modal -->
+<div class="modal" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-light">
+                <h1 class="modal-title fs-5" id="loginModalLabel">{{ 'Log In'|trans }} {{ 'to download unlimited full resolution media'| trans }}</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <button class="btn btn-outline-dark" type="button"><i
+                                    class="fa-brands fa-google"></i> {{ 'Continue with Google'|trans }}</button>
+                        <button class="btn btn-outline-dark" type="button"><i
+                                    class="fa-brands fa-facebook"></i> {{ 'Continue with Facebook'|trans }}</button>
+                    </div>
+                    <hr>
+                    <span class="text-center">{{ 'or'|trans }}</span>
+                    <hr>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">{{ 'Email address'|trans }}</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">{{ 'Password'|trans }}</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">{{ 'Close'|trans }}</button>
+                    <button type="button" class="btn bg-pixabay">{{ 'Log In'|trans }}</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

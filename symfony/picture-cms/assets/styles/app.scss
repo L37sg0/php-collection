@@ -1,0 +1,76 @@
+@import "~bootstrap/scss/bootstrap";
+
+.bg-pixabay {
+  background-color: #00ab6b;
+}
+
+.text-pixabay {
+  color: #00ab6b;
+}
+
+.tooltip-icon {
+  cursor: pointer;
+  color: #00ab6b;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.nav-link {
+  :hover {
+    color: #00ab6b;
+  }
+}
+
+.dropdown-submenu {
+  padding-left: 20px; /* Adjust this value for indentation */
+}
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.image-wrapper img {
+  display: block;
+}
+
+.icon-overlay {
+  position: absolute;
+  font-size: 14px; /* Adjust as needed */
+  color: #ffffff; /* Adjust as needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: background for better visibility */
+  padding: 5px;
+  border-radius: 50%;
+  display: none;
+  z-index: 10;
+}
+
+.icon-overlay:first-of-type {
+  top: 10px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+}
+
+.icon-overlay:last-of-type {
+  top: 10px; /* Adjust as needed */
+  left: 50px; /* Adjust as needed */
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  left: 50%;
+  right: -50%;
+  transform: translateX(-50%);
+  color: #ffffff; /* Adjust as needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: background for better visibility */
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+  z-index: 10;
+  font-size: 16px; /* Adjust as needed */
+}
+
+.image-wrapper:hover .icon-overlay,
+.image-wrapper:hover .text-overlay {
+  display: block;
+}

@@ -1,0 +1,23 @@
+<!-- Overlay Block -->
+<style>
+    .overlay-block {
+        position: relative;
+        margin-top: -100px; /* Adjust this value based on the overlap you need */
+        z-index: 10;
+    }
+
+    .overlay-content {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), #ffffff);
+        padding: 50px 0; /* Adjust padding as needed */
+        text-align: center;
+    }
+
+    .overlay-content .btn {
+        position: relative;
+    }
+</style>
+<div class="overlay-block">
+    <div class="overlay-content">
+        <button class="btn btn-outline-dark btn-lg">{{ "Discover More"|trans }}</button>
+    </div>
+</div>
