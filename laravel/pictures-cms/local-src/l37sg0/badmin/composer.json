@@ -1,0 +1,27 @@
+{
+  "name": "l37sg0/badmin",
+  "description": "Bootstrap Admin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "L37sg0\\Badmin\\": "src/"
+    }
+  },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "L37sg0\\Badmin\\ModuleServiceProvider"
+            ]
+        }
+    },
+  "authors": [
+    {
+      "name": "Petar Ivanov",
+      "email": "petar.ivanov@l37sg0.com"
+    }
+  ],
+  "require": {
+      "l37sg0/core": "1.*"
+  },
+  "version": "1.0.0"
+}
