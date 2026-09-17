@@ -8,10 +8,18 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <font src="fonts/opensans/light/opensans-300.woff2"/>
-        <font src="fonts/opensans/regular/opensans-400.woff2"/>
-        <font src="fonts/opensans/semibold/opensans-600.woff2"/>
-        <font src="fonts/opensans/bold/opensans-700.woff2"/>
-        <font src="fonts/Guma-Icons.woff2"/>
+<!--        <font src="fonts/opensans/light/opensans-300.woff2"/>-->
+<!--        <font src="fonts/opensans/regular/opensans-400.woff2"/>-->
+<!--        <font src="fonts/opensans/semibold/opensans-600.woff2"/>-->
+<!--        <font src="fonts/opensans/bold/opensans-700.woff2"/>-->
+<!--        <font src="fonts/Guma-Icons.woff2"/>-->
+        <css src="css/bootstrap.min.css"/>
+        <css src="css/fontawesome.all.min.css"/>
+        <css src="css/offcanvas-navbar.css"/>
+
+        <script src="js/bootstrap.bundle.min.js"/>
+        <script src="js/fontawesome.all.min.js"/>
+        <script src="js/jquery-3.6.3.min.js"/>
+        <script src="js/offcanvas-navbar.js"/>
     </head>
 </page>
