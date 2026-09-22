@@ -1,24 +1,42 @@
-## RocketCV
-- a mini website
-- build "API first"
-- enirely JS-driven frontend using ajax calls to the API
-- CSRF protection
-- Desgign patterned backend
-    - Immutable interfaces binding
-    - Repositories
-    - DTOs and Resource models for the api layer
-    - Backend validation using FormRequest rules
-    - Config Helper available with posibility to change themes with it
-- 2 themes included: "iPortfolio" and "Laravel"
+# CV-app
 
-## Pictures
-![home](https://github.com/L37sg0/rocketCV/assets/20823029/66a9bad1-9ef3-44d7-8504-19898f7062b2)
+A feature-rich "API-first" web application designed for managing CVs and applicant profiles, complete with an entirely JS-driven frontend and multiple theme layouts.
+---
+## Features
 
-![listing](https://github.com/L37sg0/rocketCV/assets/20823029/e598a425-1437-4b8d-b16b-4ea5f6b056e9)
+- 🌐 **API-First Architecture:** Built with a decoupled backend API layer using Laravel API Resources and DTOs.
+- ⚡ **JS-Driven Frontend:** Dynamic user interactions powered by asynchronous AJAX calls to the internal API endpoints.
+- 🔒 **Secure Data Handling:** Complete with CSRF protection and strict backend validation via `FormRequest` rules.
+- 🏛️ **Design-Patterned Backend:** Implements architectural best practices including immutable interface bindings, Repositories, and Data Transfer Objects (DTOs).
+- 🎨 **Multi-Theme Support:** Includes **2 distinct UI themes** ("iPortfolio" and "Laravel") with a config helper enabling seamless theme switching.
+---
+## Project Structure
 
-![create](https://github.com/L37sg0/rocketCV/assets/20823029/c1a31b56-95d7-40b9-8d5d-7f4934aaa3c5)
-
-![api](https://github.com/L37sg0/rocketCV/assets/20823029/eb07097b-15ae-4a62-a355-9543ad39f829)
-
-## UML Diagram
-![rocketCV_uml_diagram](https://github.com/L37sg0/rocketCV/assets/20823029/952f5074-be56-4b87-85e5-f219aa9ecb6c)
+```text
+cv-app/
+├── app/
+│   ├── Console/             # Custom console commands (e.g., static content deploy)
+│   ├── DataTransferObjects/ # DTO classes for applicant, education, skills, and university data
+│   ├── Http/
+│   │   ├── Controllers/     # API controllers and frontend entry points
+│   │   ├── Requests/        # Form request validation classes
+│   │   └── Resources/       # API Resource transformation classes
+│   ├── Models/              # Eloquent models and data interfaces
+│   ├── Providers/           # Service providers
+│   └── Repositories/        # Repository pattern interfaces and implementations
+├── routes/
+│   └── web.php              # Web routes and resource endpoint definitions
+└── resources/
+    └── views/               # Blade templates for the two themes ("iPortfolio" and "Laravel")
+```
+---
+## Tech Stack
+- Backend: PHP 8.2, Laravel 11 Framework
+- API & Data Layer: Laravel Sanctum, RESTful API Resources, Repository Pattern, DTOs
+- Frontend: JavaScript (AJAX), Blade Templates, Bootstrap / Custom Theme Assets
+---
+## Core Dependencies (composer.json)
+- PHP: ^8.2
+- Laravel Framework: ^11.0
+- API Authentication: laravel/sanctum (^4.0)
+- Interactive REPL: laravel/tinker (^2.9)
