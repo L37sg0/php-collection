@@ -1,14 +1,59 @@
 # Symfony Guestbook
 
+A full-featured, multi-tier Guestbook web application built following the official **"The Fast Track" (Symfony 6)** book tutorial. The project implements a traditional server-side rendered Twig application alongside an independent Single Page Application (SPA), asynchronous message processing via **RabbitMQ (AMQP)**, REST API via **API Platform**, and administration via **EasyAdmin**.
+---
+## Architecture & Core Features
+
+- 🖥️ **Dual Frontend Setup:**
+  - **Main App (Twig):** Traditional Server-Side Rendered interface for managing conferences, viewing comments, and submitting posts.
+  - **SPA (`/spa` directory):** A decoupled Single Page Application built with **Preact**, **Preact Router**, and Webpack Encore, communicating via the API backend.
+- ⚡ **API & Services:**
+  - **API Platform:** Exposes robust REST endpoints (`api-platform/core`) with CORS configuration (`nelmio/cors-bundle`).
+  - **Spam Checker & Image Optimization:** Integrates external APIs for spam validation (Akismet) and image processing via `imagine/imagine`.
+- 📬 **Asynchronous Messaging & Queue:**
+  - Uses **Symfony Messenger** combined with **RabbitMQ (`ext-amqp`)** to process background jobs like comment handling, notifications, and workflow transitions.
+- 🔐 **Administration & Workflows:**
+  - **EasyAdmin Bundle:** Dedicated dashboard for reviewing, editing, and publishing/rejecting comments (`App\Controller\Admin`).
+  - **Symfony Workflow:** Manages comment lifecycle states (e.g., accepted, rejected, spam).
+---
+## Project Structure
+
+```text
+guestbook/
+├── assets/                 # Main Twig app assets (JS, SCSS, images)
+├── bin/                    # Console and test executables
+├── config/                 # Symfony configurations (packages, routes, services)
+├── migrations/             # Doctrine database migration versions
+├── public/                 # Web server entry point (index.php)
+├── spa/                    # Decoupled Preact SPA source code and Webpack configuration
+│   ├── assets/             # SPA styles and variables
+│   ├── src/                # SPA components, pages (home, conference), and API clients
+│   └── webpack.config.js   # Encore config for the frontend SPA
+├── src/                    # PHP Source Code (App Namespace)
+│   ├── Api/                # API Platform extensions and filters
+│   ├── Command/            # Custom CLI commands (Cleanup, Step info)
+│   ├── Controller/         # Web controllers & EasyAdmin CRUD controllers
+│   ├── Entity/             # Doctrine Entities (Conference, Comment, Admin)
+│   ├── Message/            # Messenger messages & handlers (RabbitMQ consumers)
+│   ├── Repository/         # Doctrine data repositories
+│   └── Security/           # Custom authenticators
+├── templates/              # Twig HTML templates (layouts, emails, admin views)
+├── tests/                  # PHPUnit functional & unit tests
+├── translations/           # ICU translation files (EN, FR)
+├── compose.yaml            # Docker Compose orchestration
+└── nginx.conf.example      # Example Nginx virtual host configurations
+```
+---
+
 ## Tutorial application following symfony 6 book
 
 https://symfony.com/doc/6.2/the-fast-track/en
-
+---
 ## Differences:
  - is using mysql instead of postgresql
  - symfony CLI is not installed
  - code is not deployed on platform.sh
-
+---
 ## Used Commands in the tutorial - only the rare ones
 
 ### asks you for a plain password and returns to you a hash
