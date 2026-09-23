@@ -1,0 +1,361 @@
+sku,store_view_code,attribute_set_code,product_type,categories,product_websites,name,description,short_description,weight,product_online,tax_class_name,visibility,price,special_price,special_price_from_date,special_price_to_date,url_key,meta_title,meta_keywords,meta_description,base_image,base_image_label,small_image,small_image_label,thumbnail_image,thumbnail_image_label,swatch_image,swatch_image_label,created_at,updated_at,new_from_date,new_to_date,display_product_options_in,map_price,msrp_price,map_enabled,gift_message_available,custom_design,custom_design_from,custom_design_to,custom_layout_update,page_layout,product_options_container,msrp_display_actual_price_type,country_of_manufacture,additional_attributes,qty,out_of_stock_qty,use_config_min_qty,is_qty_decimal,allow_backorders,use_config_backorders,min_cart_qty,use_config_min_sale_qty,max_cart_qty,use_config_max_sale_qty,is_in_stock,notify_on_stock_below,use_config_notify_stock_qty,manage_stock,use_config_manage_stock,use_config_qty_increments,qty_increments,use_config_enable_qty_inc,enable_qty_increments,is_decimal_divided,website_id,related_skus,related_position,crosssell_skus,crosssell_position,upsell_skus,upsell_position,additional_images,additional_image_labels,hide_from_product_page,custom_options,bundle_price_type,bundle_sku_type,bundle_price_view,bundle_weight_type,bundle_values,bundle_shipment_type,associated_skus,downloadable_links,downloadable_samples,configurable_variations,configurable_variation_labels
+"Boxing Gloves Everlast Prostyle 2-red",,Default,simple,"Boxing,Boxing/Gloves",boxing_website,"Boxing Gloves Everlast Prostyle 2-red",,"<ul>
+<li>Elastic band with velcro closure that provides excellent fit and stability</li>
+<li>Double-layer foam that provides the necessary protection for learning the basic boxing moves without weighing down the arms</li>
+<li>Ergonomic fist grip that ensures proper positioning during punches to avoid injury.</li>
+<li>Ergonomic thumb safety design to prevent injury.</li>
+<li>Mesh material on the palms for better breathability</li>
+</ul>",0.300000,1,"Taxable Goods","Catalog, Search",88.000000,,,,boxing-gloves-everlast-prostyle-2-red,"Boxing Gloves Everlast Prostyle 2","Boxing Gloves Everlast Prostyle 2","Boxing Gloves Everlast Prostyle 2 ",,,,,,,,,"10/22/23, 1:25 PM","10/24/23, 11:06 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,"Use config",,color=red,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/e/v/everlast_prostyle_2_red_1_1.jpg,,,,,,,,,,,,,,
+"Boxing Gloves Everlast Prostyle 2-red",boxing_eu_default_view,Default,simple,,,,,,,,,,,,,,,,,,/e/v/everlast_prostyle_2_red_1_1.jpg,,/e/v/everlast_prostyle_2_red_1_1.jpg,,/e/v/everlast_prostyle_2_red_1_1.jpg,,/e/v/everlast_prostyle_2_red_1_1.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Boxing Gloves Everlast Prostyle 2-black",,Default,simple,"Boxing,Boxing/Gloves",boxing_website,"Boxing Gloves Everlast Prostyle 2-black",,"<ul>
+<li>Elastic band with velcro closure that provides excellent fit and stability</li>
+<li>Double-layer foam that provides the necessary protection for learning the basic boxing moves without weighing down the arms</li>
+<li>Ergonomic fist grip that ensures proper positioning during punches to avoid injury.</li>
+<li>Ergonomic thumb safety design to prevent injury.</li>
+<li>Mesh material on the palms for better breathability</li>
+</ul>",0.300000,1,"Taxable Goods","Catalog, Search",88.000000,,,,boxing-gloves-everlast-prostyle-2-black,"Boxing Gloves Everlast Prostyle 2","Boxing Gloves Everlast Prostyle 2","Boxing Gloves Everlast Prostyle 2 ",,,,,,,,,"10/22/23, 1:25 PM","10/24/23, 11:07 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,"Use config",,color=black,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/e/v/everlast_prostyle_2_black_1_1.jpg,,,,,,,,,,,,,,
+"Boxing Gloves Everlast Prostyle 2-black",boxing_eu_default_view,Default,simple,,,,,,,,,,,,,,,,,,/e/v/everlast_prostyle_2_black_1_1.jpg,,/e/v/everlast_prostyle_2_black_1_1.jpg,,/e/v/everlast_prostyle_2_black_1_1.jpg,,/e/v/everlast_prostyle_2_black_1_1.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Boxing Gloves Everlast Prostyle 2",,Default,configurable,"Boxing,Boxing/Gloves",boxing_website,"Boxing Gloves Everlast Prostyle 2",,"<ul>
+<li>Elastic band with velcro closure that provides excellent fit and stability</li>
+<li>Double-layer foam that provides the necessary protection for learning the basic boxing moves without weighing down the arms</li>
+<li>Ergonomic fist grip that ensures proper positioning during punches to avoid injury.</li>
+<li>Ergonomic thumb safety design to prevent injury.</li>
+<li>Mesh material on the palms for better breathability</li>
+</ul>",0.300000,1,"Taxable Goods","Not Visible Individually",,,,,boxing-gloves-everlast-prostyle-2,"Boxing Gloves Everlast Prostyle 2","Boxing Gloves Everlast Prostyle 2","Boxing Gloves Everlast Prostyle 2 ",/e/v/everlast_prostyle_2_red.jpg,,/e/v/everlast_prostyle_2_red.jpg,,/e/v/everlast_prostyle_2_red.jpg,,,,"10/22/23, 1:25 PM","10/24/23, 10:43 AM",,,"Block after Info Column",,,,"Use config",,,,,"Product -- Full Width",,"Use config",Antarctica,,0.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/e/v/everlast_prostyle_2_red.jpg,/e/v/everlast_prostyle_2_black.jpg",",",,"name=Size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=10 oz|name=Size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=12 oz|name=Size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=14 oz",,,,,,,,,,"sku=Boxing Gloves Everlast Prostyle 2-red,color=red|sku=Boxing Gloves Everlast Prostyle 2-black,color=black",color=Color
+"Boxing Gloves Everlast Core 2-black",,Default,simple,"Boxing,Boxing/Gloves",boxing_website,"Boxing Gloves Everlast Core 2-black",,"<ul>
+<li>Synthetic PVC leather that provides long-lasting durability and performance</li>
+<li>Double-layer foam that provides the necessary protection for learning the basic boxing moves without weighing down the arms</li>
+<li>Ergonomic fist grip that ensures proper positioning during punches to avoid injury.</li>
+<li>Velcro closure for a secure and individual fit around the wrist</li>
+<li> Ergonomic thumb safety design to prevent injury. • Polyester and nylon lining for easier cleaning and maintenance</li>
+</ul>",0.300000,1,"Taxable Goods","Catalog, Search",99.000000,,,,boxing-gloves-everlast-core-2-black,"Boxing Gloves Everlast Core 2","Boxing Gloves Everlast Core 2","Boxing Gloves Everlast Core 2 ",/e/v/everlast_core_2_black.jpg,,/e/v/everlast_core_2_black.jpg,,/e/v/everlast_core_2_black.jpg,,,,"10/23/23, 12:16 PM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=black,50.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/e/v/everlast_core_2_black.jpg,,,,,,,,,,,,,,
+"Boxing Gloves Everlast Core 2-black",boxing_eu_default_view,Default,simple,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Use config",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Boxing Gloves Everlast Core 2-white",,Default,simple,"Boxing,Boxing/Gloves",boxing_website,"Boxing Gloves Everlast Core 2-white",,"<ul>
+<li>Synthetic PVC leather that provides long-lasting durability and performance</li>
+<li>Double-layer foam that provides the necessary protection for learning the basic boxing moves without weighing down the arms</li>
+<li>Ergonomic fist grip that ensures proper positioning during punches to avoid injury.</li>
+<li>Velcro closure for a secure and individual fit around the wrist</li>
+<li> Ergonomic thumb safety design to prevent injury. • Polyester and nylon lining for easier cleaning and maintenance</li>
+</ul>",0.300000,1,"Taxable Goods","Catalog, Search",99.000000,,,,boxing-gloves-everlast-core-2-white,"Boxing Gloves Everlast Core 2","Boxing Gloves Everlast Core 2","Boxing Gloves Everlast Core 2 ",/e/v/everlast_core_2_white.jpg,,/e/v/everlast_core_2_white.jpg,,/e/v/everlast_core_2_white.jpg,,,,"10/23/23, 12:16 PM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=white,50.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/e/v/everlast_core_2_white.jpg,,,,,,,,,,,,,,
+"Boxing Gloves Everlast Core 2-white",boxing_eu_default_view,Default,simple,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Use config",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Boxing Gloves Everlast Core 2",,Default,configurable,"Boxing,Boxing/Gloves",boxing_website,"Boxing Gloves Everlast Core 2",,"<ul>
+<li>Synthetic PVC leather that provides long-lasting durability and performance</li>
+<li>Double-layer foam that provides the necessary protection for learning the basic boxing moves without weighing down the arms</li>
+<li>Ergonomic fist grip that ensures proper positioning during punches to avoid injury.</li>
+<li>Velcro closure for a secure and individual fit around the wrist</li>
+<li> Ergonomic thumb safety design to prevent injury. • Polyester and nylon lining for easier cleaning and maintenance</li>
+</ul>",0.300000,1,"Taxable Goods","Not Visible Individually",,,,,boxing-gloves-everlast-core-2,"Boxing Gloves Everlast Core 2","Boxing Gloves Everlast Core 2","Boxing Gloves Everlast Core 2 ",/e/v/everlast_core_2_white_1.jpg,,/e/v/everlast_core_2_white_1.jpg,,/e/v/everlast_core_2_white_1.jpg,,,,"10/23/23, 12:16 PM","10/24/23, 10:38 AM",,,"Block after Info Column",,,,"Use config",,,,,"Product -- Full Width",,"Use config",,,0.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/e/v/everlast_core_2_white_1.jpg,/e/v/everlast_core_2_black_1.jpg",",",,"name=size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=10 oz|name=size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=12 oz|name=size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=14 oz",,,,,,,,,,"sku=Boxing Gloves Everlast Core 2-black,color=black|sku=Boxing Gloves Everlast Core 2-white,color=white",color=Color
+"Boxing Gloves Everlast Core 2",boxing_eu_default_view,Default,configurable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"name=Size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=10 oz|name=Size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=12 oz|name=Size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=14 oz",,,,,,,,,,,
+"Boxing Gloves Everlast Prostyle Elite-red",,Default,simple,"Boxing,Boxing/Gloves",boxing_website,"Boxing Gloves Everlast Prostyle Elite-red",,,0.300000,1,"Taxable Goods","Catalog, Search",117.000000,,,,boxing-gloves-everlast-prostyle-elite-red,"Boxing Gloves Everlast Prostyle Elite","Boxing Gloves Everlast Prostyle Elite","Boxing Gloves Everlast Prostyle Elite ",/e/v/everlast_prostyle_elite_red_2.jpg,,/e/v/everlast_prostyle_elite_red_2.jpg,,/e/v/everlast_prostyle_elite_red_2.jpg,,/e/v/everlast_prostyle_elite_red_2.jpg,,"10/24/23, 6:57 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=red,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/e/v/everlast_prostyle_elite_red_2.jpg,,,,,,,,,,,,,,
+"Boxing Gloves Everlast Prostyle Elite-black",,Default,simple,"Boxing,Boxing/Gloves",boxing_website,"Boxing Gloves Everlast Prostyle Elite-black",,,0.300000,1,"Taxable Goods","Catalog, Search",117.000000,,,,boxing-gloves-everlast-prostyle-elite-black,"Boxing Gloves Everlast Prostyle Elite","Boxing Gloves Everlast Prostyle Elite","Boxing Gloves Everlast Prostyle Elite ",/e/v/everlast_prostyle_elite_black_2.jpg,,/e/v/everlast_prostyle_elite_black_2.jpg,,/e/v/everlast_prostyle_elite_black_2.jpg,,/e/v/everlast_prostyle_elite_black_2.jpg,,"10/24/23, 6:57 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=black,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/e/v/everlast_prostyle_elite_black_2.jpg,,,,,,,,,,,,,,
+"Boxing Gloves Everlast Prostyle Elite",,Default,configurable,"Boxing,Boxing/Gloves",boxing_website,"Boxing Gloves Everlast Prostyle Elite",,,0.300000,1,"Taxable Goods","Not Visible Individually",,,,,boxing-gloves-everlast-prostyle-elite,"Boxing Gloves Everlast Prostyle Elite","Boxing Gloves Everlast Prostyle Elite","Boxing Gloves Everlast Prostyle Elite ",/e/v/everlast_prostyle_elite_red_1.jpg,,/e/v/everlast_prostyle_elite_red_1.jpg,,/e/v/everlast_prostyle_elite_red_1.jpg,,,,"10/24/23, 6:57 AM","10/24/23, 10:38 AM",,,"Block after Info Column",,,,"Use config",,,,,"Product -- Full Width",,"Use config",,,0.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/e/v/everlast_prostyle_elite_red_1.jpg,/e/v/everlast_prostyle_elite_black_1.jpg",",",,"name=size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=10 oz|name=size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=12 oz|name=size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=14 oz",,,,,,,,,,"sku=Boxing Gloves Everlast Prostyle Elite-red,color=red|sku=Boxing Gloves Everlast Prostyle Elite-black,color=black",color=Color
+"Boxing Gloves Everlast Prostyle Elite",boxing_eu_default_view,Default,configurable,,,,,"<ul>
+<li>Evercool technology - ventilation system and breathable material, which are the most reliable source of body temperature regulation</li>
+<li>All-over construction design for perfect fist position• EverShield design for better wrist protection• Premium high-quality artificial leather that provides durability and functionality</li>
+<li>Mesh palm material for breathability and comfort</li>
+<li>Contains closed cell foam filling for maximum cushioning and protection.</li>
+<li>EverFresh – an antimicrobial coating that keeps gloves fresh</li>
+<li>Velcro wrist closure</li>
+</ul>",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"name=Size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=10 oz|name=Size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=12 oz|name=Size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=14 oz",,,,,,,,,,,
+"Boxing Gloves Pulev Sport-white&green",,Default,simple,"Boxing,Boxing/Gloves",boxing_website,"Boxing Gloves Pulev Sport-white&green",,,0.300000,1,"Taxable Goods","Catalog, Search",139.000000,,,,boxing-gloves-pulev-sport-white-green,"Boxing Gloves Pulev Sport","Boxing Gloves Pulev Sport","Boxing Gloves Pulev Sport ",/p/u/pul-primo_01_2.jpg,,/p/u/pul-primo_01_2.jpg,,/p/u/pul-primo_01_2.jpg,,/p/u/pul-primo_01_2.jpg,,"10/24/23, 8:50 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=white&green,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/p/u/pul-primo_01_2.jpg,/p/u/pul-primo_03_1.jpg,/p/u/pul-primo_02_1.jpg,/p/u/pul-primo_04_1.jpg",",,,",,,,,,,,,,,,,
+"Boxing Gloves Pulev Sport-white&pink",,Default,simple,"Boxing,Boxing/Gloves",boxing_website,"Boxing Gloves Pulev Sport-white&pink",,,0.300000,1,"Taxable Goods","Catalog, Search",139.000000,,,,boxing-gloves-pulev-sport-white-pink,"Boxing Gloves Pulev Sport","Boxing Gloves Pulev Sport","Boxing Gloves Pulev Sport ",/p/u/pul-huba_01_2.jpg,,/p/u/pul-huba_01_2.jpg,,/p/u/pul-huba_01_2.jpg,,/p/u/pul-huba_01_2.jpg,,"10/24/23, 8:50 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=white&pink,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/p/u/pul-huba_01_2.jpg,/p/u/pul-huba_03_1.jpg,/p/u/pul-huba_02_1.jpg,/p/u/pul-huba_04_1.jpg",",,,",,,,,,,,,,,,,
+"Boxing Gloves Pulev Sport",,Default,configurable,"Boxing,Boxing/Gloves",boxing_website,"Boxing Gloves Pulev Sport",,"<ul>
+<li>High quality materials</li>
+<li>Four-layer foam helps distribute energy in the peak impact area</li>
+<li>The multi-layered foam absorbs the impact as much as possible and thus optimizes the protection effect</li>
+<li>Double reinforced seams for exceptional glove durability</li>
+<li>Micro perforated thumb panel for improved ventilation</li>
+<li>The inner coating wicks away sweat and thus reduces the risk of bacteria</li>
+<li>The best choice for both professional athletes and amateurs</li>
+<li>Wide and strong adhesive tape that corrects and positions the wrist correctly, thus protecting against injuries</li>
+<li>Top grade calf leather gives the glove a classic finish and makes it durable in the long term</li>
+</ul>",0.300000,1,"Taxable Goods","Not Visible Individually",,,,,boxing-gloves-pulev-sport,"Boxing Gloves Pulev Sport","Boxing Gloves Pulev Sport","Boxing Gloves Pulev Sport ",/p/u/pul-primo_01_1.jpg,,/p/u/pul-primo_01_1.jpg,,/p/u/pul-primo_01_1.jpg,,,,"10/24/23, 8:50 AM","10/24/23, 10:38 AM",,,"Block after Info Column",,,,"Use config",,,,,"Product -- Full Width",,"Use config",,,0.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/p/u/pul-primo_01_1.jpg,/p/u/pul-huba_01_1.jpg",",",,"name=Size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=10 oz|name=Size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=12 oz|name=Size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=14 oz",,,,,,,,,,"sku=Boxing Gloves Pulev Sport-white&green,color=white&green|sku=Boxing Gloves Pulev Sport-white&pink,color=white&pink",color=Color
+"Boxing Bandage Everlast 120x2-white",,Default,simple,"Boxing,Boxing/Bandages",boxing_website,"Boxing Bandage Everlast 120x2-white",,"<ul>
+<li>With a small thumb strap for added security</li>
+<li>Composition: 100% cotton</li>
+<li>Dimensions: 2x120 cm</li>
+</ul>",0.100000,1,"Taxable Goods","Catalog, Search",20.000000,,,,boxing-bandage-everlast-120x2-white,"Boxing Bandage Everlast 120x2","Boxing Bandage Everlast 120x2","Boxing Bandage Everlast 120x2 ",/e/v/everlast.120.white_2.jpg,,/e/v/everlast.120.white_2.jpg,,/e/v/everlast.120.white_2.jpg,,/e/v/everlast.120.white_2.jpg,,"10/24/23, 9:12 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=white,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/e/v/everlast.120.white_2.jpg,,,,,,,,,,,,,,
+"Boxing Bandage Everlast 120x2-blue",,Default,simple,"Boxing,Boxing/Bandages",boxing_website,"Boxing Bandage Everlast 120x2-blue",,"<ul>
+<li>With a small thumb strap for added security</li>
+<li>Composition: 100% cotton</li>
+<li>Dimensions: 2x120 cm</li>
+</ul>",0.100000,1,"Taxable Goods","Catalog, Search",20.000000,,,,boxing-bandage-everlast-120x2-blue,"Boxing Bandage Everlast 120x2","Boxing Bandage Everlast 120x2","Boxing Bandage Everlast 120x2 ",/e/v/everlast.120.blue_2.jpg,,/e/v/everlast.120.blue_2.jpg,,/e/v/everlast.120.blue_2.jpg,,/e/v/everlast.120.blue_2.jpg,,"10/24/23, 9:12 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=blue,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/e/v/everlast.120.blue_2.jpg,,,,,,,,,,,,,,
+"Boxing Bandage Everlast 120x2",,Default,configurable,"Boxing,Boxing/Bandages",boxing_website,"Boxing Bandage Everlast 120x2",,"<ul>
+<li>With a small thumb strap for added security</li>
+<li>Composition: 100% cotton</li>
+<li>Dimensions: 2x120 cm</li>
+</ul>",0.100000,1,"Taxable Goods","Not Visible Individually",,,,,boxing-bandage-everlast-120x2,"Boxing Bandage Everlast 120x2","Boxing Bandage Everlast 120x2","Boxing Bandage Everlast 120x2 ",/e/v/everlast.120.white_1.jpg,,/e/v/everlast.120.white_1.jpg,,/e/v/everlast.120.white_1.jpg,,,,"10/24/23, 9:12 AM","10/24/23, 10:38 AM",,,"Block after Info Column",,,,"Use config",,,,,"Product -- Full Width",,"Use config",,,0.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/e/v/everlast.120.white_1.jpg,/e/v/everlast.120.blue_1.jpg",",",,,,,,,,,,,,"sku=Boxing Bandage Everlast 120x2-white,color=white|sku=Boxing Bandage Everlast 120x2-blue,color=blue",color=Color
+"Boxing Bandage Everlast 180x2-red",,Default,simple,"Boxing,Boxing/Bandages",boxing_website,"Boxing Bandage Everlast 180x2-red",,"<div class=""product attribute overview"">
+<div class=""value"">
+<ul>
+<li>With a small thumb strap for added security</li>
+<li>Composition: 100% cotton</li>
+<li>Dimensions: 2x180 cm</li>
+</ul>
+</div>
+</div>",0.100000,1,"Taxable Goods","Catalog, Search",30.000000,,,,boxing-bandage-everlast-180x2-red,"Boxing Bandage Everlast 180x2","Boxing Bandage Everlast 180x2","Boxing Bandage Everlast 180x2 ",/e/v/everlast.180.red_2.jpg,,/e/v/everlast.180.red_2.jpg,,/e/v/everlast.180.red_2.jpg,,/e/v/everlast.180.red_2.jpg,,"10/24/23, 9:21 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=red,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/e/v/everlast.180.red_2.jpg,,,,,,,,,,,,,,
+"Boxing Bandage Everlast 180x2-black",,Default,simple,"Boxing,Boxing/Bandages",boxing_website,"Boxing Bandage Everlast 180x2-black",,"<div class=""product attribute overview"">
+<div class=""value"">
+<ul>
+<li>With a small thumb strap for added security</li>
+<li>Composition: 100% cotton</li>
+<li>Dimensions: 2x180 cm</li>
+</ul>
+</div>
+</div>",0.100000,1,"Taxable Goods","Catalog, Search",30.000000,,,,boxing-bandage-everlast-180x2-black,"Boxing Bandage Everlast 180x2","Boxing Bandage Everlast 180x2","Boxing Bandage Everlast 180x2 ",/e/v/everlast.180.black_2.jpg,,/e/v/everlast.180.black_2.jpg,,/e/v/everlast.180.black_2.jpg,,/e/v/everlast.180.black_2.jpg,,"10/24/23, 9:21 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=black,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/e/v/everlast.180.black_2.jpg,,,,,,,,,,,,,,
+"Boxing Bandage Everlast 180x2-pink",,Default,simple,"Boxing,Boxing/Bandages",boxing_website,"Boxing Bandage Everlast 180x2-pink",,"<div class=""product attribute overview"">
+<div class=""value"">
+<ul>
+<li>With a small thumb strap for added security</li>
+<li>Composition: 100% cotton</li>
+<li>Dimensions: 2x180 cm</li>
+</ul>
+</div>
+</div>",0.100000,1,"Taxable Goods","Catalog, Search",30.000000,,,,boxing-bandage-everlast-180x2-pink,"Boxing Bandage Everlast 180x2","Boxing Bandage Everlast 180x2","Boxing Bandage Everlast 180x2 ",/e/v/everlast.180.pink_2.jpg,,/e/v/everlast.180.pink_2.jpg,,/e/v/everlast.180.pink_2.jpg,,/e/v/everlast.180.pink_2.jpg,,"10/24/23, 9:21 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=pink,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/e/v/everlast.180.pink_2.jpg,,,,,,,,,,,,,,
+"Boxing Bandage Everlast 180x2",,Default,configurable,"Boxing,Boxing/Bandages",boxing_website,"Boxing Bandage Everlast 180x2",,"<div class=""product attribute overview"">
+<div class=""value"">
+<ul>
+<li>With a small thumb strap for added security</li>
+<li>Composition: 100% cotton</li>
+<li>Dimensions: 2x180 cm</li>
+</ul>
+</div>
+</div>",0.100000,1,"Taxable Goods","Not Visible Individually",,,,,boxing-bandage-everlast-180x2,"Boxing Bandage Everlast 180x2","Boxing Bandage Everlast 180x2","Boxing Bandage Everlast 180x2 ",/e/v/everlast.180.red_1.jpg,,/e/v/everlast.180.red_1.jpg,,/e/v/everlast.180.red_1.jpg,,,,"10/24/23, 9:21 AM","10/24/23, 10:38 AM",,,"Block after Info Column",,,,"Use config",,,,,"Product -- Full Width",,"Use config",,,0.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/e/v/everlast.180.red_1.jpg,/e/v/everlast.180.pink_1.jpg,/e/v/everlast.180.black_1.jpg",",,",,,,,,,,,,,,"sku=Boxing Bandage Everlast 180x2-red,color=red|sku=Boxing Bandage Everlast 180x2-black,color=black|sku=Boxing Bandage Everlast 180x2-pink,color=pink",color=Color
+"Boxing Gloves Everlast SPARK-navy&green",,Default,simple,"Boxing,Boxing/Gloves",boxing_website,"Boxing Gloves Everlast SPARK-navy&green",,"<ul>
+<li>Synthetic PU (polyurethane) leather for longer lasting durability and performance</li>
+<li>With foam that ensures ergonomic positioning of the hand in the glove for optimal protection from injury</li>
+<li>Polyurethane foam that absorbs stress on impact</li>
+<li>Ergonomic construction at the front of the palm, which when the hand is bent, ensures the correct positioning of the fist on impact to avoid injuries</li>
+<li>Mesh palm areas for temperature control during intense workouts</li>
+<li>Velcro closure for a secure and individual fit around the wrist</li>
+<li>Ergonomic thumb design to help avoid injuries</li>
+<li>Polyester and nylon lining for easier cleaning and maintenance</li>
+</ul>",0.300000,1,"Taxable Goods","Catalog, Search",88.000000,,,,boxing-gloves-everlast-spark-navy-green,"Boxing Gloves Everlast SPARK","Boxing Gloves Everlast SPARK","Boxing Gloves Everlast SPARK ",/e/v/everlast.spark.navy.green.1_2.jpg,,/e/v/everlast.spark.navy.green.1_2.jpg,,/e/v/everlast.spark.navy.green.1_2.jpg,,/e/v/everlast.spark.navy.green.1_2.jpg,,"10/24/23, 9:41 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=navy&green,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/e/v/everlast.spark.navy.green.1_2.jpg,/e/v/everlast.spark.navy.green.2_2.jpg",",",,,,,,,,,,,,,
+"Boxing Gloves Everlast SPARK-navy&blue",,Default,simple,"Boxing,Boxing/Gloves",boxing_website,"Boxing Gloves Everlast SPARK-navy&blue",,"<ul>
+<li>Synthetic PU (polyurethane) leather for longer lasting durability and performance</li>
+<li>With foam that ensures ergonomic positioning of the hand in the glove for optimal protection from injury</li>
+<li>Polyurethane foam that absorbs stress on impact</li>
+<li>Ergonomic construction at the front of the palm, which when the hand is bent, ensures the correct positioning of the fist on impact to avoid injuries</li>
+<li>Mesh palm areas for temperature control during intense workouts</li>
+<li>Velcro closure for a secure and individual fit around the wrist</li>
+<li>Ergonomic thumb design to help avoid injuries</li>
+<li>Polyester and nylon lining for easier cleaning and maintenance</li>
+</ul>",0.300000,1,"Taxable Goods","Catalog, Search",88.000000,,,,boxing-gloves-everlast-spark-navy-blue,"Boxing Gloves Everlast SPARK","Boxing Gloves Everlast SPARK","Boxing Gloves Everlast SPARK ",/e/v/everlast.spark.navy.blue.1_2.jpg,,/e/v/everlast.spark.navy.blue.1_2.jpg,,/e/v/everlast.spark.navy.blue.1_2.jpg,,/e/v/everlast.spark.navy.blue.1_2.jpg,,"10/24/23, 9:41 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=navy&blue,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/e/v/everlast.spark.navy.blue.1_2.jpg,,,,,,,,,,,,,,
+"Boxing Gloves Everlast SPARK-black",,Default,simple,"Boxing,Boxing/Gloves",boxing_website,"Boxing Gloves Everlast SPARK-black",,"<ul>
+<li>Synthetic PU (polyurethane) leather for longer lasting durability and performance</li>
+<li>With foam that ensures ergonomic positioning of the hand in the glove for optimal protection from injury</li>
+<li>Polyurethane foam that absorbs stress on impact</li>
+<li>Ergonomic construction at the front of the palm, which when the hand is bent, ensures the correct positioning of the fist on impact to avoid injuries</li>
+<li>Mesh palm areas for temperature control during intense workouts</li>
+<li>Velcro closure for a secure and individual fit around the wrist</li>
+<li>Ergonomic thumb design to help avoid injuries</li>
+<li>Polyester and nylon lining for easier cleaning and maintenance</li>
+</ul>",0.300000,1,"Taxable Goods","Catalog, Search",88.000000,,,,boxing-gloves-everlast-spark-black,"Boxing Gloves Everlast SPARK","Boxing Gloves Everlast SPARK","Boxing Gloves Everlast SPARK ",/e/v/everlast.spark.black.1_2.jpg,,/e/v/everlast.spark.black.1_2.jpg,,/e/v/everlast.spark.black.1_2.jpg,,/e/v/everlast.spark.black.1_2.jpg,,"10/24/23, 9:41 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=black,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/e/v/everlast.spark.black.1_2.jpg,,,,,,,,,,,,,,
+"Boxing Gloves Everlast SPARK",,Default,configurable,"Boxing,Boxing/Gloves",boxing_website,"Boxing Gloves Everlast SPARK",,"<ul>
+<li>Synthetic PU (polyurethane) leather for longer lasting durability and performance</li>
+<li>With foam that ensures ergonomic positioning of the hand in the glove for optimal protection from injury</li>
+<li>Polyurethane foam that absorbs stress on impact</li>
+<li>Ergonomic construction at the front of the palm, which when the hand is bent, ensures the correct positioning of the fist on impact to avoid injuries</li>
+<li>Mesh palm areas for temperature control during intense workouts</li>
+<li>Velcro closure for a secure and individual fit around the wrist</li>
+<li>Ergonomic thumb design to help avoid injuries</li>
+<li>Polyester and nylon lining for easier cleaning and maintenance</li>
+</ul>",0.300000,1,"Taxable Goods","Not Visible Individually",,,,,boxing-gloves-everlast-spark,"Boxing Gloves Everlast SPARK","Boxing Gloves Everlast SPARK","Boxing Gloves Everlast SPARK ",/e/v/everlast.spark.navy.green.1_1.jpg,,/e/v/everlast.spark.navy.green.1_1.jpg,,/e/v/everlast.spark.navy.green.1_1.jpg,,,,"10/24/23, 9:41 AM","10/24/23, 10:38 AM",,,"Block after Info Column",,,,"Use config",,,,,"Product -- Full Width",,"Use config",,,0.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/e/v/everlast.spark.navy.green.1_1.jpg,/e/v/everlast.spark.navy.green.2_1.jpg,/e/v/everlast.spark.navy.blue.1_1.jpg,/e/v/everlast.spark.black.1_1.jpg",",,,",,"name=Size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=10 oz|name=Size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=12 oz|name=Size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=14 oz|name=Size,type=radio,required=1,price=0.000000,sku=,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=16 oz",,,,,,,,,,"sku=Boxing Gloves Everlast SPARK-black,color=black|sku=Boxing Gloves Everlast SPARK-navy&green,color=navy&green|sku=Boxing Gloves Everlast SPARK-navy&blue,color=navy&blue",color=Color
+"Boxing Bandage Pulev Sport 180x2-black&skull",,Default,simple,"Boxing,Boxing/Bandages",boxing_website,"Boxing Bandage Pulev Sport 180x2-black&skull",,"<ul>
+<li>High quality materials    </li>
+<li>They provide comfort and security during training  </li>
+<li>100% cotton  </li>
+<li>Bright and long-lasting colors  </li>
+<li>Suitable for machine washing  </li>
+<li><strong>Attention</strong> - the color may fade during machine washing</li>
+</ul>",0.100000,1,"Taxable Goods","Catalog, Search",30.000000,,,,boxing-bandage-pulev-sport-180x2-black-skull,"Boxing Bandage Pulev Sport 180x2","Boxing Bandage Pulev Sport 180x2","Boxing Bandage Pulev Sport 180x2 ",/p/u/pulev.sport.bandage.180x2.black_skull.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.black_skull.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.black_skull.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.black_skull.1_2.jpg,,"10/24/23, 10:24 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=black&skull,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/p/u/pulev.sport.bandage.180x2.black_skull.1_2.jpg,/p/u/pulev.sport.bandage.180x2.black_skull.2_2.jpg",",",,,,,,,,,,,,,
+"Boxing Bandage Pulev Sport 180x2-white",,Default,simple,"Boxing,Boxing/Bandages",boxing_website,"Boxing Bandage Pulev Sport 180x2-white",,"<ul>
+<li>High quality materials    </li>
+<li>They provide comfort and security during training  </li>
+<li>100% cotton  </li>
+<li>Bright and long-lasting colors  </li>
+<li>Suitable for machine washing  </li>
+<li><strong>Attention</strong> - the color may fade during machine washing</li>
+</ul>",0.100000,1,"Taxable Goods","Catalog, Search",30.000000,,,,boxing-bandage-pulev-sport-180x2-white,"Boxing Bandage Pulev Sport 180x2","Boxing Bandage Pulev Sport 180x2","Boxing Bandage Pulev Sport 180x2 ",/p/u/pulev.sport.bandage.180x2.white.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.white.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.white.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.white.1_2.jpg,,"10/24/23, 10:24 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=white,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/p/u/pulev.sport.bandage.180x2.white.1_2.jpg,/p/u/pulev.sport.bandage.180x2.white.2_2.jpg",",",,,,,,,,,,,,,
+"Boxing Bandage Pulev Sport 180x2-red",,Default,simple,"Boxing,Boxing/Bandages",boxing_website,"Boxing Bandage Pulev Sport 180x2-red",,"<ul>
+<li>High quality materials    </li>
+<li>They provide comfort and security during training  </li>
+<li>100% cotton  </li>
+<li>Bright and long-lasting colors  </li>
+<li>Suitable for machine washing  </li>
+<li><strong>Attention</strong> - the color may fade during machine washing</li>
+</ul>",0.100000,1,"Taxable Goods","Catalog, Search",30.000000,,,,boxing-bandage-pulev-sport-180x2-red,"Boxing Bandage Pulev Sport 180x2","Boxing Bandage Pulev Sport 180x2","Boxing Bandage Pulev Sport 180x2 ",/p/u/pulev.sport.bandage.180x2.red.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.red.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.red.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.red.1_2.jpg,,"10/24/23, 10:24 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=red,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/p/u/pulev.sport.bandage.180x2.red.1_2.jpg,/p/u/pulev.sport.bandage.180x2.red.2_2.jpg",",",,,,,,,,,,,,,
+"Boxing Bandage Pulev Sport 180x2-blue",,Default,simple,"Boxing,Boxing/Bandages",boxing_website,"Boxing Bandage Pulev Sport 180x2-blue",,"<ul>
+<li>High quality materials    </li>
+<li>They provide comfort and security during training  </li>
+<li>100% cotton  </li>
+<li>Bright and long-lasting colors  </li>
+<li>Suitable for machine washing  </li>
+<li><strong>Attention</strong> - the color may fade during machine washing</li>
+</ul>",0.100000,1,"Taxable Goods","Catalog, Search",30.000000,,,,boxing-bandage-pulev-sport-180x2-blue,"Boxing Bandage Pulev Sport 180x2","Boxing Bandage Pulev Sport 180x2","Boxing Bandage Pulev Sport 180x2 ",/p/u/pulev.sport.bandage.180x2.blue.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.blue.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.blue.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.blue.1_2.jpg,,"10/24/23, 10:25 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=blue,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/p/u/pulev.sport.bandage.180x2.blue.1_2.jpg,/p/u/pulev.sport.bandage.180x2.blue.2_2.jpg",",",,,,,,,,,,,,,
+"Boxing Bandage Pulev Sport 180x2-navy&green",,Default,simple,"Boxing,Boxing/Bandages",boxing_website,"Boxing Bandage Pulev Sport 180x2-navy&green",,"<ul>
+<li>High quality materials    </li>
+<li>They provide comfort and security during training  </li>
+<li>100% cotton  </li>
+<li>Bright and long-lasting colors  </li>
+<li>Suitable for machine washing  </li>
+<li><strong>Attention</strong> - the color may fade during machine washing</li>
+</ul>",0.100000,1,"Taxable Goods","Catalog, Search",30.000000,,,,boxing-bandage-pulev-sport-180x2-navy-green,"Boxing Bandage Pulev Sport 180x2","Boxing Bandage Pulev Sport 180x2","Boxing Bandage Pulev Sport 180x2 ",/p/u/pulev.sport.bandage.180x2.navy_green.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.navy_green.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.navy_green.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.navy_green.1_2.jpg,,"10/24/23, 10:25 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=navy&green,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/p/u/pulev.sport.bandage.180x2.navy_green.1_2.jpg,/p/u/pulev.sport.bandage.180x2.navy_green.2_2.jpg",",",,,,,,,,,,,,,
+"Boxing Bandage Pulev Sport 180x2-orange",,Default,simple,"Boxing,Boxing/Bandages",boxing_website,"Boxing Bandage Pulev Sport 180x2-orange",,"<ul>
+<li>High quality materials    </li>
+<li>They provide comfort and security during training  </li>
+<li>100% cotton  </li>
+<li>Bright and long-lasting colors  </li>
+<li>Suitable for machine washing  </li>
+<li><strong>Attention</strong> - the color may fade during machine washing</li>
+</ul>",0.100000,1,"Taxable Goods","Catalog, Search",30.000000,,,,boxing-bandage-pulev-sport-180x2-orange,"Boxing Bandage Pulev Sport 180x2","Boxing Bandage Pulev Sport 180x2","Boxing Bandage Pulev Sport 180x2 ",/p/u/pulev.sport.bandage.180x2.orange.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.orange.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.orange.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.orange.1_2.jpg,,"10/24/23, 10:25 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=orange,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/p/u/pulev.sport.bandage.180x2.orange.1_2.jpg,/p/u/pulev.sport.bandage.180x2.orange.2_2.jpg",",",,,,,,,,,,,,,
+"Boxing Bandage Pulev Sport 180x2-light&green",,Default,simple,"Boxing,Boxing/Bandages",boxing_website,"Boxing Bandage Pulev Sport 180x2-light&green",,"<ul>
+<li>High quality materials    </li>
+<li>They provide comfort and security during training  </li>
+<li>100% cotton  </li>
+<li>Bright and long-lasting colors  </li>
+<li>Suitable for machine washing  </li>
+<li><strong>Attention</strong> - the color may fade during machine washing</li>
+</ul>",0.100000,1,"Taxable Goods","Catalog, Search",30.000000,,,,boxing-bandage-pulev-sport-180x2-light-green,"Boxing Bandage Pulev Sport 180x2","Boxing Bandage Pulev Sport 180x2","Boxing Bandage Pulev Sport 180x2 ",/p/u/pulev.sport.bandage.180x2.green.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.green.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.green.1_2.jpg,,/p/u/pulev.sport.bandage.180x2.green.1_2.jpg,,"10/24/23, 10:25 AM","10/24/23, 11:04 AM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=light&green,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/p/u/pulev.sport.bandage.180x2.green.1_2.jpg,/p/u/pulev.sport.bandage.180x2.green.2_2.jpg",",",,,,,,,,,,,,,
+"Boxing Bandage Pulev Sport 180x2",,Default,configurable,"Boxing,Boxing/Bandages",boxing_website,"Boxing Bandage Pulev Sport 180x2",,"<ul>
+<li>High quality materials    </li>
+<li>They provide comfort and security during training  </li>
+<li>100% cotton  </li>
+<li>Bright and long-lasting colors  </li>
+<li>Suitable for machine washing  </li>
+<li>Dimensions: 2x180 cm</li>
+<li><strong>Attention</strong> - the color may fade during machine washing</li>
+</ul>",0.100000,1,"Taxable Goods","Not Visible Individually",,,,,boxing-bandage-pulev-sport-180x2,"Boxing Bandage Pulev Sport 180x2","Boxing Bandage Pulev Sport 180x2","Boxing Bandage Pulev Sport 180x2 ",/p/u/pulev.sport.bandage.180x2.black_skull.1_1.jpg,,/p/u/pulev.sport.bandage.180x2.black_skull.1_1.jpg,,/p/u/pulev.sport.bandage.180x2.black_skull.1_1.jpg,,,,"10/24/23, 10:25 AM","10/24/23, 10:38 AM",,,"Block after Info Column",,,,"Use config",,,,,"Product -- Full Width",,"Use config",,,0.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/p/u/pulev.sport.bandage.180x2.black_skull.1_1.jpg,/p/u/pulev.sport.bandage.180x2.black_skull.2_1.jpg,/p/u/pulev.sport.bandage.180x2.blue.1_1.jpg,/p/u/pulev.sport.bandage.180x2.blue.2_1.jpg,/p/u/pulev.sport.bandage.180x2.green.1_1.jpg,/p/u/pulev.sport.bandage.180x2.green.2_1.jpg,/p/u/pulev.sport.bandage.180x2.navy_green.1_1.jpg,/p/u/pulev.sport.bandage.180x2.navy_green.2_1.jpg,/p/u/pulev.sport.bandage.180x2.orange.1_1.jpg,/p/u/pulev.sport.bandage.180x2.orange.2_1.jpg,/p/u/pulev.sport.bandage.180x2.red.1_1.jpg,/p/u/pulev.sport.bandage.180x2.red.2_1.jpg,/p/u/pulev.sport.bandage.180x2.white.1_1.jpg,/p/u/pulev.sport.bandage.180x2.white.2_1.jpg",",,,,,,,,,,,,,",,,,,,,,,,,,"sku=Boxing Bandage Pulev Sport 180x2-red,color=red|sku=Boxing Bandage Pulev Sport 180x2-white,color=white|sku=Boxing Bandage Pulev Sport 180x2-blue,color=blue|sku=Boxing Bandage Pulev Sport 180x2-navy&green,color=navy&green|sku=Boxing Bandage Pulev Sport 180x2-black&skull,color=black&skull|sku=Boxing Bandage Pulev Sport 180x2-orange,color=orange|sku=Boxing Bandage Pulev Sport 180x2-light&green,color=light&green",color=Color
+"Boxing Heavy Bag Lonsdale 150cm",,Default,simple,"Boxing,Boxing/Heavy Bags",boxing_website,"Boxing Heavy Bag Lonsdale 150cm",,"<p>Punching bag made from durable, tear-resistant synthetic leather double-reinforced seams for greater durability. This textile filled punching bag comes with chrome plated steel chain suspension with an integrated swivel. This bag is good for home and gym use. Size: ca.150cm long x 40cm Ø, weight: appr. 48kg <br /><br />Lonsdale is an iconic name in the world of boxing since 1960. Great athletes has been training, competing and winning in the brand's legendary equipment.<br /><br /><strong>Features</strong></p>
+<ul>
+<li>150x40cm. HxW, appr. 48kg.</li>
+<li>PU coated nylon weaving.</li>
+<li>pure textile filling</li>
+<li>incl. metall suspension chain with an integrated swivel</li>
+<li>Crafted form boxing- and other martial arts- trainíng.</li>
+</ul>
+<p>Available in black/red/white</p>",48.000000,1,"Taxable Goods","Catalog, Search",500.000000,,,,boxing-heavy-bag-lonsdale-150cm,"Boxing Heavy Bag Lonsdale 150cm","Boxing Heavy Bag Lonsdale 150cm","Boxing Heavy Bag Lonsdale 150cm ",/h/e/heavy.bag.lonsdale.150.1.jpg,,/h/e/heavy.bag.lonsdale.150.1.jpg,,/h/e/heavy.bag.lonsdale.150.1.jpg,,/h/e/heavy.bag.lonsdale.150.1.jpg,,"10/24/23, 12:13 PM","10/24/23, 12:13 PM",,,"Block after Info Column",,,,"Use config",,,,,"Product -- Full Width",,"Use config",,,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/h/e/heavy.bag.lonsdale.150.1.jpg,/h/e/heavy.bag.lonsdale.150.2.jpg,/h/e/heavy.bag.lonsdale.150.3.jpg,/h/e/heavy.bag.lonsdale.150.4.jpg,/h/e/heavy.bag.lonsdale.150.5.jpg",",,,,",,,,,,,,,,,,,
+"Boxing Heavy Bag Lonsdale Uppecut 120cm",,Default,simple,"Boxing,Boxing/Heavy Bags",boxing_website,"Boxing Heavy Bag Lonsdale Uppecut 120cm",,"<p>Punching bag made from durable, tear-resistant synthetic leather with reinforced suspension and reinforced seams for greater durability. Chrome plated 4 - chain suspension of steel with swivel. This special shaped punchingbag is designed for training of uppercuts and bodyshots Good for home and gym use. Filled with shredded fabric. Size: ca.120cm long x 40cm Ø, weight: ca.45kg</p>
+<p>Lonsdale is an iconic name in the world of boxing since 1960. Great athletes has been training, competing and winning in the brand's legendary equipment.<br /><br /><strong>Features</strong></p>
+<ul>
+<li>120x40cm. HxW, appr. 45kg.</li>
+<li>PU coated nylon weaving.</li>
+<li>pure textile filling</li>
+<li>incl. metall suspension chain with an integrated swivel</li>
+<li>Crafted form boxing- and other martial arts- trainíng.</li>
+</ul>
+<p>Available in black/red/white</p>",45.000000,1,"Taxable Goods","Catalog, Search",500.000000,,,,boxing-heavy-bag-lonsdale-uppercut-120cm,"Boxing Heavy Bag Lonsdale Uppecut 120cm","Boxing Heavy Bag Lonsdale Uppecut 120cm","Boxing Heavy Bag Lonsdale Uppecut 120cm",/h/e/heavy.bag.lonsdale.uppercut.1.jpg,,/h/e/heavy.bag.lonsdale.uppercut.1.jpg,,/h/e/heavy.bag.lonsdale.uppercut.1.jpg,,/h/e/heavy.bag.lonsdale.uppercut.1.jpg,,"10/24/23, 12:18 PM","10/24/23, 1:19 PM",,,"Block after Info Column",,,,"Use config",,,,,"Product -- Full Width",,"Use config",,,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/h/e/heavy.bag.lonsdale.uppercut.1.jpg,/h/e/heavy.bag.lonsdale.uppercut.2.jpg,/h/e/heavy.bag.lonsdale.uppercut.3.jpg",",,",,,,,,,,,,,,,
+"Boxing Heavy Bag Fairtex Banana Bag-lime&green",,Default,simple,"Boxing,Boxing/Heavy Bags",boxing_website,"Boxing Heavy Bag Fairtex Banana Bag-lime&green",,"<p>The Fairtex Banana bag is a must have for real Muay Thai and Kickbox athletes. This quality bag is made from a water ressistant Fairtex Syntek™ leather material, laminated with a non-tear nylon woven material, make this bag almost indestructable. No metal chains required, this bag hags on 6 non-tear nylon straps with 3 heavy duty metal rings. Filled this bag reaches a appr. 60 kg with a height of 180cm and a cross-width of 36cm .</p>
+<p><em>This bag will be delivered unfilled.</em></p>
+<p><strong>Features</strong></p>
+<ul>
+<li>non tear nylon laminated Syntek™ leather material shell</li>
+<li>3 heavy duty metal D-rings on non 6 tear nylon straps.</li>
+<li>zipper top closure for easy fill</li>
+<li>180cm height, 36cm cross-width.</li>
+<li>Hand made in Thailand</li>
+</ul>
+<p>Available in black, black/gold, yellow, red, blue and lime green.</p>",60.000000,1,"Taxable Goods","Not Visible Individually",200.000000,,,,boxing-heavy-bag-fairtex-banana-bag-lime-green,"Boxing Heavy Bag Fairtex Banana Bag","Boxing Heavy Bag Fairtex Banana Bag","Boxing Heavy Bag Fairtex Banana Bag ",/h/e/heavy.bag.fairtex.banana.bag.lime_green_1_1.jpg,,/h/e/heavy.bag.fairtex.banana.bag.lime_green_1_1.jpg,,/h/e/heavy.bag.fairtex.banana.bag.lime_green_1_1.jpg,,/h/e/heavy.bag.fairtex.banana.bag.lime_green_1_1.jpg,,"10/24/23, 12:30 PM","10/24/23, 12:30 PM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=lime&green,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/h/e/heavy.bag.fairtex.banana.bag.lime_green_1_1.jpg,,,,,,,,,,,,,,
+"Boxing Heavy Bag Fairtex Banana Bag-gold",,Default,simple,"Boxing,Boxing/Heavy Bags",boxing_website,"Boxing Heavy Bag Fairtex Banana Bag-gold",,"<p>The Fairtex Banana bag is a must have for real Muay Thai and Kickbox athletes. This quality bag is made from a water ressistant Fairtex Syntek™ leather material, laminated with a non-tear nylon woven material, make this bag almost indestructable. No metal chains required, this bag hags on 6 non-tear nylon straps with 3 heavy duty metal rings. Filled this bag reaches a appr. 60 kg with a height of 180cm and a cross-width of 36cm .</p>
+<p><em>This bag will be delivered unfilled.</em></p>
+<p><strong>Features</strong></p>
+<ul>
+<li>non tear nylon laminated Syntek™ leather material shell</li>
+<li>3 heavy duty metal D-rings on non 6 tear nylon straps.</li>
+<li>zipper top closure for easy fill</li>
+<li>180cm height, 36cm cross-width.</li>
+<li>Hand made in Thailand</li>
+</ul>
+<p>Available in black, black/gold, yellow, red, blue and lime green.</p>",60.000000,1,"Taxable Goods","Not Visible Individually",200.000000,,,,boxing-heavy-bag-fairtex-banana-bag-gold,"Boxing Heavy Bag Fairtex Banana Bag","Boxing Heavy Bag Fairtex Banana Bag","Boxing Heavy Bag Fairtex Banana Bag ",/h/e/heavy.bag.fairtex.banana.bag.gold_2.jpg,,/h/e/heavy.bag.fairtex.banana.bag.gold_2.jpg,,/h/e/heavy.bag.fairtex.banana.bag.gold_2.jpg,,/h/e/heavy.bag.fairtex.banana.bag.gold_2.jpg,,"10/24/23, 12:30 PM","10/24/23, 12:30 PM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=gold,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/h/e/heavy.bag.fairtex.banana.bag.gold_2.jpg,,,,,,,,,,,,,,
+"Boxing Heavy Bag Fairtex Banana Bag-black",,Default,simple,"Boxing,Boxing/Heavy Bags",boxing_website,"Boxing Heavy Bag Fairtex Banana Bag-black",,"<p>The Fairtex Banana bag is a must have for real Muay Thai and Kickbox athletes. This quality bag is made from a water ressistant Fairtex Syntek™ leather material, laminated with a non-tear nylon woven material, make this bag almost indestructable. No metal chains required, this bag hags on 6 non-tear nylon straps with 3 heavy duty metal rings. Filled this bag reaches a appr. 60 kg with a height of 180cm and a cross-width of 36cm .</p>
+<p><em>This bag will be delivered unfilled.</em></p>
+<p><strong>Features</strong></p>
+<ul>
+<li>non tear nylon laminated Syntek™ leather material shell</li>
+<li>3 heavy duty metal D-rings on non 6 tear nylon straps.</li>
+<li>zipper top closure for easy fill</li>
+<li>180cm height, 36cm cross-width.</li>
+<li>Hand made in Thailand</li>
+</ul>
+<p>Available in black, black/gold, yellow, red, blue and lime green.</p>",60.000000,1,"Taxable Goods","Not Visible Individually",200.000000,,,,boxing-heavy-bag-fairtex-banana-bag-black,"Boxing Heavy Bag Fairtex Banana Bag","Boxing Heavy Bag Fairtex Banana Bag","Boxing Heavy Bag Fairtex Banana Bag ",/h/e/heavy.bag.fairtex.banana.bag.black_2.jpg,,/h/e/heavy.bag.fairtex.banana.bag.black_2.jpg,,/h/e/heavy.bag.fairtex.banana.bag.black_2.jpg,,/h/e/heavy.bag.fairtex.banana.bag.black_2.jpg,,"10/24/23, 12:30 PM","10/24/23, 12:30 PM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=black,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/h/e/heavy.bag.fairtex.banana.bag.black_2.jpg,,,,,,,,,,,,,,
+"Boxing Heavy Bag Fairtex Banana Bag-blue",,Default,simple,"Boxing,Boxing/Heavy Bags",boxing_website,"Boxing Heavy Bag Fairtex Banana Bag-blue",,"<p>The Fairtex Banana bag is a must have for real Muay Thai and Kickbox athletes. This quality bag is made from a water ressistant Fairtex Syntek™ leather material, laminated with a non-tear nylon woven material, make this bag almost indestructable. No metal chains required, this bag hags on 6 non-tear nylon straps with 3 heavy duty metal rings. Filled this bag reaches a appr. 60 kg with a height of 180cm and a cross-width of 36cm .</p>
+<p><em>This bag will be delivered unfilled.</em></p>
+<p><strong>Features</strong></p>
+<ul>
+<li>non tear nylon laminated Syntek™ leather material shell</li>
+<li>3 heavy duty metal D-rings on non 6 tear nylon straps.</li>
+<li>zipper top closure for easy fill</li>
+<li>180cm height, 36cm cross-width.</li>
+<li>Hand made in Thailand</li>
+</ul>
+<p>Available in black, black/gold, yellow, red, blue and lime green.</p>",60.000000,1,"Taxable Goods","Not Visible Individually",200.000000,,,,boxing-heavy-bag-fairtex-banana-bag-blue,"Boxing Heavy Bag Fairtex Banana Bag","Boxing Heavy Bag Fairtex Banana Bag","Boxing Heavy Bag Fairtex Banana Bag ",/h/e/heavy.bag.fairtex.banana.bag.blue_2.jpg,,/h/e/heavy.bag.fairtex.banana.bag.blue_2.jpg,,/h/e/heavy.bag.fairtex.banana.bag.blue_2.jpg,,/h/e/heavy.bag.fairtex.banana.bag.blue_2.jpg,,"10/24/23, 12:30 PM","10/24/23, 12:30 PM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=blue,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/h/e/heavy.bag.fairtex.banana.bag.blue_2.jpg,,,,,,,,,,,,,,
+"Boxing Heavy Bag Fairtex Banana Bag-red",,Default,simple,"Boxing,Boxing/Heavy Bags",boxing_website,"Boxing Heavy Bag Fairtex Banana Bag-red",,"<p>The Fairtex Banana bag is a must have for real Muay Thai and Kickbox athletes. This quality bag is made from a water ressistant Fairtex Syntek™ leather material, laminated with a non-tear nylon woven material, make this bag almost indestructable. No metal chains required, this bag hags on 6 non-tear nylon straps with 3 heavy duty metal rings. Filled this bag reaches a appr. 60 kg with a height of 180cm and a cross-width of 36cm .</p>
+<p><em>This bag will be delivered unfilled.</em></p>
+<p><strong>Features</strong></p>
+<ul>
+<li>non tear nylon laminated Syntek™ leather material shell</li>
+<li>3 heavy duty metal D-rings on non 6 tear nylon straps.</li>
+<li>zipper top closure for easy fill</li>
+<li>180cm height, 36cm cross-width.</li>
+<li>Hand made in Thailand</li>
+</ul>
+<p>Available in black, black/gold, yellow, red, blue and lime green.</p>",60.000000,1,"Taxable Goods","Not Visible Individually",200.000000,,,,boxing-heavy-bag-fairtex-banana-bag-red,"Boxing Heavy Bag Fairtex Banana Bag","Boxing Heavy Bag Fairtex Banana Bag","Boxing Heavy Bag Fairtex Banana Bag ",/h/e/heavy.bag.fairtex.banana.bag.red_2.jpg,,/h/e/heavy.bag.fairtex.banana.bag.red_2.jpg,,/h/e/heavy.bag.fairtex.banana.bag.red_2.jpg,,/h/e/heavy.bag.fairtex.banana.bag.red_2.jpg,,"10/24/23, 12:30 PM","10/24/23, 12:30 PM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=red,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/h/e/heavy.bag.fairtex.banana.bag.red_2.jpg,,,,,,,,,,,,,,
+"Boxing Heavy Bag Fairtex Banana Bag 180cm",,Default,configurable,"Boxing,Boxing/Heavy Bags",boxing_website,"Boxing Heavy Bag Fairtex Banana Bag 180cm",,"<p>The Fairtex Banana bag is a must have for real Muay Thai and Kickbox athletes. This quality bag is made from a water ressistant Fairtex Syntek™ leather material, laminated with a non-tear nylon woven material, make this bag almost indestructable. No metal chains required, this bag hags on 6 non-tear nylon straps with 3 heavy duty metal rings. Filled this bag reaches a appr. 60 kg with a height of 180cm and a cross-width of 36cm .</p>
+<p><em>This bag will be delivered unfilled.</em></p>
+<p><strong>Features</strong></p>
+<ul>
+<li>non tear nylon laminated Syntek™ leather material shell</li>
+<li>3 heavy duty metal D-rings on non 6 tear nylon straps.</li>
+<li>zipper top closure for easy fill</li>
+<li>180cm height, 36cm cross-width.</li>
+<li>Hand made in Thailand</li>
+</ul>
+<p>Available in black, black/gold, yellow, red, blue and lime green.</p>",60.000000,1,"Taxable Goods","Catalog, Search",,,,,boxing-heavy-bag-fairtex-banana-bag-180cm,"Boxing Heavy Bag Fairtex Banana Bag 180cm","Boxing Heavy Bag Fairtex Banana Bag 180cm","Boxing Heavy Bag Fairtex Banana Bag 180cm",/h/e/heavy.bag.fairtex.banana.bag.black_1.jpg,,/h/e/heavy.bag.fairtex.banana.bag.black_1.jpg,,/h/e/heavy.bag.fairtex.banana.bag.black_1.jpg,,,,"10/24/23, 12:30 PM","1/10/24, 1:11 PM",,,"Block after Info Column",,,,"Use config",,,,,"Product -- Full Width",,"Use config",,orientation=Right,0.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/h/e/heavy.bag.fairtex.banana.bag.black_1.jpg,/h/e/heavy.bag.fairtex.banana.bag.blue_1.jpg,/h/e/heavy.bag.fairtex.banana.bag.gold_1.jpg,/h/e/heavy.bag.fairtex.banana.bag.lime_green_2.jpg,/h/e/heavy.bag.fairtex.banana.bag.red_1.jpg",",,,,",,"name=Orientation,type=radio,required=1,price=0.000000,sku=Boxing Heavy Bag Fairtex Banana Bag 180cm,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=Left|name=Orientation,type=radio,required=1,price=0.000000,sku=Boxing Heavy Bag Fairtex Banana Bag 180cm,max_characters=0,file_extension=,image_size_x=0,image_size_y=0,price_type=fixed,option_title=Right",,,,,,,,,,"sku=Boxing Heavy Bag Fairtex Banana Bag-red,color=red|sku=Boxing Heavy Bag Fairtex Banana Bag-black,color=black|sku=Boxing Heavy Bag Fairtex Banana Bag-blue,color=blue|sku=Boxing Heavy Bag Fairtex Banana Bag-lime&green,color=lime&green|sku=Boxing Heavy Bag Fairtex Banana Bag-gold,color=gold",color=Color
+"Boxing Heavy Bag Fairtex Teardrop 93cm",,Default,simple,"Boxing,Boxing/Heavy Bags",boxing_website,"Boxing Heavy Bag Fairtex Teardrop 93cm",,"<p>This great Fairtex product is specifically designed for Muay Thai stand up clinching, kneeing, punching and kicking drills with the unique tear drop shape to similate an opponent. Constructed of premium Syntek leather with heavy duty water resistant and non-tear nylon lining,  6 non tear nylon web straps hold the bag up in the air. Filled, this bag will weight appr. 40kg. with a height of 93cm and a cross-width of 38cm.</p>
+<p><em>This bag will be delivered unfilled.</em></p>
+<p><strong>Features</strong></p>
+<ul>
+<li>Constructed of premium Syntek™ leather with heavy duty water resistant and non-tear nylon lining</li>
+<li>6 heavy duty metal D-rings on non tear nylon straps.</li>
+<li>zipper top closure for easy fill</li>
+<li>93cm height, 38cm cross-width</li>
+<li>fill capacity appr. 40kgs</li>
+<li>Hand made in Thailand</li>
+</ul>
+<p>Available in black/yellow, as per picture.</p>",40.000000,1,"Taxable Goods","Catalog, Search",300.000000,,,,boxing-heavy-bag-fairtex-teardrop-93cm,"Boxing Heavy Bag Fairtex Teardrop 93cm","Boxing Heavy Bag Fairtex Teardrop 93cm","Boxing Heavy Bag Fairtex Teardrop 93cm",/h/e/heavy.bag.fairtex.teardrop.black_yellow.jpg,,/h/e/heavy.bag.fairtex.teardrop.black_yellow.jpg,,/h/e/heavy.bag.fairtex.teardrop.black_yellow.jpg,,/h/e/heavy.bag.fairtex.teardrop.black_yellow.jpg,,"10/24/23, 12:47 PM","10/24/23, 1:21 PM",,,"Block after Info Column",,,,"Use config",,,,,"Product -- Full Width",,"Use config",,,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/h/e/heavy.bag.fairtex.teardrop.black_yellow.jpg,,,,,,,,,,,,,,
+"Boxing Heavy Bag Benlee Rocky Marciano Uppercut 120 cm",,Default,simple,"Boxing,Boxing/Heavy Bags",boxing_website,"Boxing Heavy Bag Benlee Rocky Marciano Uppercut 120cm",,"<p>Professional body and uppercut punchbag made in a sturdy and lasting PU vinyl, ready filled with textile flocks. benLee Riccardo is already filled and weight about 40kg. with a size of 95x38cm HxW. A 4 points metal chain with an integrated swivel is included.  Ready to use.<br /><br /><strong>Features</strong></p>
+<ul>
+<li>120x40cm. HxW,</li>
+<li>PU vinal artificial leather</li>
+<li>weight appr. 40kgs</li>
+<li>4 point metal chain with an integrated swivel.</li>
+<li>Crafted form boxing- and other martial arts- trainíng.</li>
+</ul>
+<p>Available in black.</p>",40.000000,1,"Taxable Goods","Catalog, Search",350.000000,,,,boxing-heavy-bag-benlee-rocky-marciano-uppercut-120cm,"Boxing Heavy Bag Benlee Rocky Marciano Uppercut 120cm","Boxing Heavy Bag Benlee Rocky Marciano Uppercut 120cm","Boxing Heavy Bag Benlee Rocky Marciano Uppercut 120cm",/b/o/boxing.heavy.bag.benlee.rocky.marciano.uppercut.1.jpg,,/b/o/boxing.heavy.bag.benlee.rocky.marciano.uppercut.1.jpg,,/b/o/boxing.heavy.bag.benlee.rocky.marciano.uppercut.1.jpg,,/b/o/boxing.heavy.bag.benlee.rocky.marciano.uppercut.1.jpg,,"10/24/23, 12:57 PM","10/24/23, 1:18 PM",,,"Block after Info Column",,,,"Use config",,,,,"Product -- Full Width",,"Use config",,,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/b/o/boxing.heavy.bag.benlee.rocky.marciano.uppercut.1.jpg,/b/o/boxing.heavy.bag.benlee.rocky.marciano.uppercut.2.jpg,/b/o/boxing.heavy.bag.benlee.rocky.marciano.uppercut.3.jpg",",,",,,,,,,,,,,,,
+"Boxing Heavy Bag Everlast NEVATEAR 100cm-black&red",,Default,simple,"Boxing,Boxing/Heavy Bags",boxing_website,"Boxing Heavy Bag Everlast NEVATEAR 100cm-black&red",,"<ul>
+<li>Special filling - a mix of purified synthetic and natural fibers that provide elastic shock absorption.</li>
+<li>High-quality synthetic leather with reinforced webbing and exceptional construction increase the durability and functionality of the bag</li>
+<li>Sturdy nylon straps ensure safety and security</li>
+<li>Chains included: 16.5 cm</li>
+<li>Dimensions: 33 x 101 cm</li>
+<li>Weight: 36 kg</li>
+<li>Not recommended for outdoor use</li>
+</ul>",36.000000,1,"Taxable Goods","Not Visible Individually",200.000000,,,,boxing-heavy-bag-everlast-nevatear-100cm-black-red,"Boxing Heavy Bag Everlast NEVATEAR 100cm","Boxing Heavy Bag Everlast NEVATEAR 100cm","Boxing Heavy Bag Everlast NEVATEAR 100cm ",/b/o/boxing.heavy.bag.everlast.nevatear.black_red.1_2.jpg,,/b/o/boxing.heavy.bag.everlast.nevatear.black_red.1_2.jpg,,/b/o/boxing.heavy.bag.everlast.nevatear.black_red.1_2.jpg,,/b/o/boxing.heavy.bag.everlast.nevatear.black_red.1_2.jpg,,"10/24/23, 1:10 PM","10/24/23, 1:10 PM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=black&red,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/b/o/boxing.heavy.bag.everlast.nevatear.black_red.1_2.jpg,/b/o/boxing.heavy.bag.everlast.nevatear.black_red.2_2.jpg,/b/o/boxing.heavy.bag.everlast.nevatear.black_red.3_3.jpg,/b/o/boxing.heavy.bag.everlast.nevatear.black_yellow.2_1_1.jpg",",,,",,,,,,,,,,,,,
+"Boxing Heavy Bag Everlast NEVATEAR 100cm-black&yellow",,Default,simple,"Boxing,Boxing/Heavy Bags",boxing_website,"Boxing Heavy Bag Everlast NEVATEAR 100cm-black&yellow",,"<ul>
+<li>Special filling - a mix of purified synthetic and natural fibers that provide elastic shock absorption.</li>
+<li>High-quality synthetic leather with reinforced webbing and exceptional construction increase the durability and functionality of the bag</li>
+<li>Sturdy nylon straps ensure safety and security</li>
+<li>Chains included: 16.5 cm</li>
+<li>Dimensions: 33 x 101 cm</li>
+<li>Weight: 36 kg</li>
+<li>Not recommended for outdoor use</li>
+</ul>",36.000000,1,"Taxable Goods","Not Visible Individually",200.000000,,,,boxing-heavy-bag-everlast-nevatear-100cm-black-yellow,"Boxing Heavy Bag Everlast NEVATEAR 100cm","Boxing Heavy Bag Everlast NEVATEAR 100cm","Boxing Heavy Bag Everlast NEVATEAR 100cm ",/b/o/boxing.heavy.bag.everlast.nevatear.black_yellow.1_2.jpg,,/b/o/boxing.heavy.bag.everlast.nevatear.black_yellow.1_2.jpg,,/b/o/boxing.heavy.bag.everlast.nevatear.black_yellow.1_2.jpg,,/b/o/boxing.heavy.bag.everlast.nevatear.black_yellow.1_2.jpg,,"10/24/23, 1:10 PM","10/24/23, 1:10 PM",,,"Block after Info Column",,,,No,,,,,"Product -- Full Width",,,,color=black&yellow,100.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/b/o/boxing.heavy.bag.everlast.nevatear.black_yellow.1_2.jpg,/b/o/boxing.heavy.bag.everlast.nevatear.black_yellow.2_3.jpg,/b/o/boxing.heavy.bag.everlast.nevatear.black_yellow.3_2.jpg,/b/o/boxing.heavy.bag.everlast.nevatear.black_red.3_1_1.jpg",",,,",,,,,,,,,,,,,
+"Boxing Heavy Bag Everlast NEVATEAR 100cm",,Default,configurable,"Boxing,Boxing/Heavy Bags",boxing_website,"Boxing Heavy Bag Everlast NEVATEAR 100cm",,"<ul>
+<li>Special filling - a mix of purified synthetic and natural fibers that provide elastic shock absorption.</li>
+<li>High-quality synthetic leather with reinforced webbing and exceptional construction increase the durability and functionality of the bag</li>
+<li>Sturdy nylon straps ensure safety and security</li>
+<li>Chains included: 16.5 cm</li>
+<li>Dimensions: 33 x 101 cm</li>
+<li>Weight: 36 kg</li>
+<li>Not recommended for outdoor use</li>
+</ul>",36.000000,1,"Taxable Goods","Catalog, Search",,,,,boxing-heavy-bag-everlast-nevatear-100cm,"Boxing Heavy Bag Everlast NEVATEAR 100cm","Boxing Heavy Bag Everlast NEVATEAR 100cm","Boxing Heavy Bag Everlast NEVATEAR 100cm ",/b/o/boxing.heavy.bag.everlast.nevatear.black_red.1_1.jpg,,/b/o/boxing.heavy.bag.everlast.nevatear.black_red.1_1.jpg,,/b/o/boxing.heavy.bag.everlast.nevatear.black_red.1_1.jpg,,,,"10/24/23, 1:10 PM","10/24/23, 1:10 PM",,,"Block after Info Column",,,,"Use config",,,,,"Product -- Full Width",,"Use config",,,0.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/b/o/boxing.heavy.bag.everlast.nevatear.black_red.1_1.jpg,/b/o/boxing.heavy.bag.everlast.nevatear.black_red.2_1.jpg,/b/o/boxing.heavy.bag.everlast.nevatear.black_red.3_2.jpg,/b/o/boxing.heavy.bag.everlast.nevatear.black_yellow.1_1.jpg,/b/o/boxing.heavy.bag.everlast.nevatear.black_yellow.2_2.jpg,/b/o/boxing.heavy.bag.everlast.nevatear.black_yellow.3_1.jpg",",,,,,",,,,,,,,,,,,"sku=Boxing Heavy Bag Everlast NEVATEAR 100cm-black&red,color=black&red|sku=Boxing Heavy Bag Everlast NEVATEAR 100cm-black&yellow,color=black&yellow",color=Color
