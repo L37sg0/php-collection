@@ -15,13 +15,13 @@ A lightweight example WordPress plugin that provides a customized clone of the c
 ---
 
 ## Project Structure
-
+```txt
 text-widget/
 ├── form.php                    # HTML form template for the widget admin settings
 ├── l37sg0-wp-text-widget.php   # Main plugin file containing widget registration and logic
 ├── LICENSE                     # Open-source license file
 └── README.md                   # Project documentation
-
+```
 ---
 
 ## Tech Stack
