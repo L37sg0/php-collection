@@ -8,7 +8,7 @@ A lightweight example WordPress plugin designed to inject custom interactive ele
   - Allows editors to generate custom-styled links rendered as HTML buttons.
   - Supports configurable attributes: `url` (defaults to `#`) and `target` (defaults to `_blank`).
 - 💻 **Code Snippet Shortcode (`[code]`):**
-  - Safely formats and displays code snippets inside `
+  - Safely formats and displays code snippets inside `[code]`
 
 ---
 ## Project Structure
